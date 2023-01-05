@@ -1,5 +1,5 @@
-# L'Éternelle moisson (Dofus)
-Un outil pour gérer la quête du [Dofus](http://dofus.com) Ocre pour le jeu du même nom.
+# L'Éternelle moisson (Dofus rétro)
+Un outil pour gérer la quête du [Dofus](http://dofus.com) Ocre mis à jour pour la version rétro.
 
 ## Versions
 L'outil est actuellement en beta.
