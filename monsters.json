@@ -245,9 +245,14 @@
     },
     {
         "id": 24,
-        "name": "Arakne des \u00c9gouts",
+        "name": "Arakne Agressive",
         "zones": [
-            "\u00c9gouts d'Astrub"
+            "Bord de la fôret maléfique"
+            "Forêt des Abraknydes"
+            "Souterrain du Château d'Amakna"
+            "La Millifutaie"
+            "Le chemin de fer abandonné"
+            "La campagne"
         ],
         "step": 2,
         "type": "monster"
@@ -1283,7 +1288,7 @@
         "name": "Aboub",
         "zones": [
             "Mine des Dopeuls",
-            "Village des Dofeuls"
+            "Village des Dopeuls"
         ],
         "step": 7,
         "type": "monster"
