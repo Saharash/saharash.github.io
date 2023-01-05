@@ -1760,9 +1760,9 @@
     },
     {
         "id": 182,
-        "name": "Lolojiki",
+        "name": "Kitsou Nae",
         "zones": [
-            "Terrdala"
+            "Pandala"
         ],
         "step": 10,
         "type": "monster"
@@ -1778,27 +1778,27 @@
     },
     {
         "id": 184,
-        "name": "Shinibaru",
+        "name": "Pandawa Ivre",
         "zones": [
-            "Atelier du Tanukou\u00ef San"
+            "Pandala"
         ],
         "step": 10,
         "type": "monster"
     },
     {
         "id": 185,
-        "name": "Betto",
+        "name": "Cooleuvre",
         "zones": [
-            "Akwadala"
+            "Pandala"
         ],
         "step": 10,
         "type": "monster"
     },
     {
         "id": 186,
-        "name": "Moumoule",
+        "name": "Coquille Explosive",
         "zones": [
-            "Rivages sufokien"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 10,
         "type": "monster"
@@ -1832,36 +1832,36 @@
     },
     {
         "id": 190,
-        "name": "Dragoeuf Calcaire",
+        "name": "DragOeuf Blanc",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 10,
         "type": "monster"
     },
     {
         "id": 191,
-        "name": "Dragoeuf Argile",
+        "name": "DragOeuf Doré",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 10,
         "type": "monster"
     },
     {
         "id": 192,
-        "name": "Dragoeuf Charbon",
+        "name": "DragOeuf Noir",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 10,
         "type": "monster"
     },
     {
         "id": 193,
-        "name": "Dragoeuf Ardoise",
+        "name": "DragOeuf de saphir",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 10,
         "type": "monster"
@@ -5262,7 +5262,7 @@
         "id": 534,
         "name": "Dragstayr le Fonceur",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 29,
         "type": "archi",
@@ -5272,7 +5272,7 @@
         "id": 535,
         "name": "Dragmoclaiss le Fataliste",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 29,
         "type": "archi",
@@ -5282,7 +5282,7 @@
         "id": 536,
         "name": "Dragkouine la D\u00e9guis\u00e9e",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 29,
         "type": "archi",
@@ -5292,7 +5292,7 @@
         "id": 537,
         "name": "Dragnostik le Sceptique",
         "zones": [
-            "Presqu'\u00eele des Dragoeufs"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 29,
         "type": "archi",
