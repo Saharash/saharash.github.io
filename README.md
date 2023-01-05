@@ -5,7 +5,7 @@ Un outil pour gérer la quête du [Dofus](http://dofus.com) Ocre pour le jeu du 
 L'outil est actuellement en beta.
 
 ## Utilisation
-Il est utilisable soit en ligne : https://saharash.github.io/
+Il est utilisable en ligne : https://saharash.github.io/
 
 Les informations sont stockées en local sur le navigateur donc pas besoin de s'inscrire.
 
