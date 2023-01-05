@@ -1279,6 +1279,16 @@
         "type": "monster"
     },
     {
+        "id": 132,
+        "name": "Aboub",
+        "zones": [
+            "Mine des Dopeuls",
+            "Village des Dopeuls"
+        ],
+        "step": 7,
+        "type": "monster"
+    },
+    {
         "id": 133,
         "name": "Amlub",
         "zones": [
