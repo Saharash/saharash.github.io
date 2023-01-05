@@ -247,11 +247,11 @@
         "id": 24,
         "name": "Arakne Agressive",
         "zones": [
-            "Bord de la fôret maléfique"
-            "Forêt des Abraknydes"
-            "Souterrain du Château d'Amakna"
-            "La Millifutaie"
-            "Le chemin de fer abandonné"
+            "Bord de la fôret maléfique",
+            "Forêt des Abraknydes",
+            "Souterrain du Château d'Amakna",
+            "La Millifutaie",
+            "Le chemin de fer abandonné",
             "La campagne"
         ],
         "step": 2,
