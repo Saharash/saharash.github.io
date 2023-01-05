@@ -334,7 +334,7 @@
         "id": 32,
         "name": "Kol\u00e9rat",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 2,
         "type": "monster"
@@ -536,9 +536,9 @@
     },
     {
         "id": 53,
-        "name": "Milirat Strubien",
+        "name": "Milirat d'Egoutant malade",
         "zones": [
-            "\u00c9gouts d'Astrub"
+            "Souterrain profond d'Astrub"
         ],
         "step": 3,
         "type": "monster"
@@ -618,16 +618,16 @@
         "id": 61,
         "name": "Croc Gland",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 4,
         "type": "monster"
     },
     {
         "id": 62,
-        "name": "Floristile",
+        "name": "Bulbambou",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 4,
         "type": "monster"
@@ -717,7 +717,7 @@
         "id": 72,
         "name": "Bambouto",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 4,
         "type": "monster"
@@ -773,7 +773,7 @@
         "id": 78,
         "name": "Bulbiflore",
         "zones": [
-            "Bambuseraie de Damadrya"
+            "Pandala"
         ],
         "step": 4,
         "type": "monster"
@@ -803,7 +803,8 @@
         "id": 81,
         "name": "Rose Obscure",
         "zones": [
-            "P\u00e2turages de Bonta"
+            "Champs des Ingalsses",
+            "Pâturages de Bonta"
         ],
         "step": 5,
         "type": "monster"
@@ -888,9 +889,9 @@
     },
     {
         "id": 90,
-        "name": "Ishigro Pake",
+        "name": "Kitsou Nakwa",
         "zones": [
-            "Terrdala"
+            "Pandala"
         ],
         "step": 5,
         "type": "monster"
@@ -899,7 +900,7 @@
         "id": 91,
         "name": "Gargrouille",
         "zones": [
-            "Cimeti\u00e8re d'Astrub"
+            "Le champs du Repos"
         ],
         "step": 5,
         "type": "monster"
@@ -915,10 +916,9 @@
     },
     {
         "id": 93,
-        "name": "Gel\u00e9e Fraise",
+        "name": "Gelée Fraise",
         "zones": [
-            "Gelaxi\u00e8me dimension",
-            "P\u00e9ninsule des Gel\u00e9es"
+            "Péninsule des Gelées"
         ],
         "step": 5,
         "type": "monster"
@@ -1155,9 +1155,9 @@
     },
     {
         "id": 118,
-        "name": "Sc\u00e9l\u00e9rat Strubien",
+        "name": "Rat d'Egoutant malade",
         "zones": [
-            "\u00c9gouts d'Astrub"
+            "Souterrains profonds d'Astrub"
         ],
         "step": 6,
         "type": "monster"
@@ -1166,7 +1166,7 @@
         "id": 119,
         "name": "Scorbute",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 6,
         "type": "monster"
@@ -1230,7 +1230,7 @@
         "id": 126,
         "name": "Bulbuisson",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 7,
         "type": "monster"
@@ -1247,9 +1247,9 @@
     },
     {
         "id": 128,
-        "name": "Akakwa",
+        "name": "Araknawa",
         "zones": [
-            "Akwadala"
+            "Pandala"
         ],
         "step": 7,
         "type": "monster"
@@ -1448,11 +1448,11 @@
     },
     {
         "id": 148,
-        "name": "Ramane d'\u00c9goutant",
+        "name": "Chaman d'Egoutant",
         "zones": [
-            "\u00c9gouts de Bonta",
-            "\u00c9gouts de Br\u00e2kmar",
-            "Souterrains du Ch\u00e2teau d'Amakna"
+            "Egoûts de Bonta",
+            "Egoûts de Brâkmar",
+            "Souterrains d'Astrub"
         ],
         "step": 8,
         "type": "monster"
@@ -1516,7 +1516,7 @@
         "id": 155,
         "name": "Sanglier des Plaines",
         "zones": [
-            "Plaine des Porkass"
+            "Forêt de Cania"
         ],
         "step": 8,
         "type": "monster"
@@ -1541,9 +1541,9 @@
     },
     {
         "id": 158,
-        "name": "Fangshu",
+        "name": "Pandit",
         "zones": [
-            "Aerdala"
+            "Pandala"
         ],
         "step": 8,
         "type": "monster"
@@ -1578,18 +1578,18 @@
     },
     {
         "id": 162,
-        "name": "Ino-Naru",
+        "name": "Pandikaze",
         "zones": [
-            "Aerdala"
+            "Pandala"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 163,
-        "name": "Kanniboul Ark",
+        "name": "Kanniboul Archer",
         "zones": [
-            "For\u00eat des Masques"
+            "Jungle profonde de Moon"
         ],
         "step": 9,
         "type": "monster"
@@ -1598,7 +1598,7 @@
         "id": 164,
         "name": "Kanniboul Jav",
         "zones": [
-            "For\u00eat des Masques"
+            "Jungle profonde de Moon"
         ],
         "step": 9,
         "type": "monster"
@@ -1607,25 +1607,25 @@
         "id": 165,
         "name": "Kanniboul Sarbak",
         "zones": [
-            "For\u00eat des Masques"
+            "Jungle profonde de Moon"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 166,
-        "name": "Kanniboul Eth",
+        "name": "Kanniboul Thierry",
         "zones": [
-            "For\u00eat des Masques"
+            "Jungle profonde de Moon"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 167,
-        "name": "Sarkapwane",
+        "name": "Pandalette Ivre",
         "zones": [
-            "Akwadala"
+            "Pandala"
         ],
         "step": 9,
         "type": "monster"
@@ -1643,7 +1643,7 @@
     },
     {
         "id": 169,
-        "name": "Palmifleur Koura\u00e7ao",
+        "name": "Palmifleur Kouraçao",
         "zones": [
             "Plage de Corail"
         ],
@@ -1651,26 +1651,53 @@
         "type": "monster"
     },
     {
-        "id": 170,
-        "name": "Macien",
+        "id": 178,
+        "name": "Ouginak",
         "zones": [
-            "Laboratoire de Brumen Tinctorias"
+            "Lande de Sidimote"
+        ],
+        "step": 9,
+        "type": "monster"
+    },
+    {
+        "id": 170,
+        "name": "DragOeuf Blanc immature",
+        "zones": [
+            "Presqu'île des Dragoeufs"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 171,
-        "name": "Dragoss Prot\u00e9iforme",
+        "name": "DragOeuf Doré immature",
         "zones": [
-            "Repaire du Kharnozor"
+            "Presqu'île des Dragoeufs"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 172,
-        "name": "Dragac\u00e9",
+        "name": "DragOeuf Noir immature",
+        "zones": [
+            "Presqu'île des Dragoeufs"
+        ],
+        "step": 9,
+        "type": "monster"
+    },
+    {
+        "id": 173,
+        "name": "DragOeuf de saphir immature",
+        "zones": [
+            "Presqu'île des Dragoeufs"
+        ],
+        "step": 9,
+        "type": "monster"
+    },
+    {
+        "id": 174,
+        "name": "Dragoss Blanc",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -1678,62 +1705,35 @@
         "type": "monster"
     },
     {
-        "id": 173,
-        "name": "Dragmatique",
-        "zones": [
-            "Antre de Corcabulia"
-        ],
-        "step": 9,
-        "type": "monster"
-    },
-    {
-        "id": 174,
-        "name": "Kwak de Vent",
-        "zones": [
-            "Montagne des Craqueleurs"
-        ],
-        "step": 9,
-        "type": "monster"
-    },
-    {
         "id": 175,
-        "name": "Kwak de Terre",
+        "name": "Dragoss Doré",
         "zones": [
-            "Montagne des Craqueleurs"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 176,
-        "name": "Kwak de Flamme",
+        "name": "Dragoss Noir",
         "zones": [
-            "Montagne des Craqueleurs"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 177,
-        "name": "Kwak de Glace",
+        "name": "Dragoss de saphir",
         "zones": [
-            "Montagne des Craqueleurs"
-        ],
-        "step": 9,
-        "type": "monster"
-    },
-    {
-        "id": 178,
-        "name": "V\u00e9tauran",
-        "zones": [
-            "Routes Rocailleuses"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 9,
         "type": "monster"
     },
     {
         "id": 179,
-        "name": "Crachefoux",
+        "name": "Léopardo",
         "zones": [
             "Feudala"
         ],
@@ -2288,7 +2288,7 @@
         "id": 240,
         "name": "Grenufar",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 13,
         "type": "monster"
@@ -3608,7 +3608,7 @@
         "id": 377,
         "name": "Kolforthe l'Ind\u00e9collable",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 21,
         "type": "archi",
@@ -3951,7 +3951,7 @@
         "id": 409,
         "name": "Cromikay le N\u00e9ophyte",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 22,
         "type": "archi",
@@ -3971,7 +3971,7 @@
         "id": 411,
         "name": "Bambousk\u00e9 le Camoufl\u00e9",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 23,
         "type": "archi",
@@ -4137,7 +4137,7 @@
         "id": 427,
         "name": "Crognan le Barbare",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 23,
         "type": "archi",
@@ -4540,7 +4540,7 @@
         "id": 465,
         "name": "Scorpit\u00e8ne l'Enflamm\u00e9",
         "zones": [
-            "D\u00e9solation de Sidimote"
+            "Lande de Sidimote"
         ],
         "step": 25,
         "type": "archi",
@@ -4560,7 +4560,7 @@
         "id": 467,
         "name": "Bulsavon le Gonfl\u00e9",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 25,
         "type": "archi",
@@ -4621,7 +4621,7 @@
         "id": 473,
         "name": "Floriste la Cannibale",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 26,
         "type": "archi",
@@ -4997,7 +4997,7 @@
         "id": 508,
         "name": "Grenuche la Gentille",
         "zones": [
-            "Plantala"
+            "Pandala"
         ],
         "step": 27,
         "type": "archi",
