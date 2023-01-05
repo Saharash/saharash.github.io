@@ -1,11 +1,11 @@
-# L'Éternelle moisson (Dofus)
-Un outil pour gérer la quête du [Dofus](http://dofus.com) Ocre pour le jeu du même nom.
+# L'Éternelle moisson (Dofus rétro)
+Un outil pour gérer la quête du [Dofus](http://dofus.com) Ocre mis à jour pour la version rétro.
 
 ## Versions
 L'outil est actuellement en beta.
 
 ## Utilisation
-Il est utilisable soit en ligne : https://saharash.github.io/
+Il est utilisable en ligne : https://saharash.github.io/
 
 Les informations sont stockées en local sur le navigateur donc pas besoin de s'inscrire.
 
