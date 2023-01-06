@@ -3300,7 +3300,8 @@
         "id": 351,
         "name": "Sourizoto le Collant",
         "zones": [
-            "Cryptes du cimetière"
+            "Les cryptes",
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3310,8 +3311,21 @@
         "id": 352,
         "name": "Mosketère le Dévoué",
         "zones": [
-            "Bord de la forêt maléfique",
-            "Campagne d'Amakna"
+            "La montagne des Craqueleurs",
+            "Le champ des Ingalsses",
+            "La forêt d'Amakna",
+            "Bord de la fôret maléfique",
+            "Le berceau",
+            "Forêt d'Astrub",
+            "Champs d'Astrub",
+            "Le coin des Tofus",
+            "Pandala Neutre",
+            "Bordure d'Aerdala",
+            "Village de Pandala",
+            "Orée de la forêt des Abraknydes",
+            "Montagne basse des Craqueleurs",
+            "Le chemin de fer abandonné",
+            "La campagne"
         ],
         "step": 20,
         "type": "archi",
@@ -3321,8 +3335,16 @@
         "id": 353,
         "name": "Arakule la Revancharde",
         "zones": [
-            "Campagne d'Amakna",
-            "Forêt maléfique"
+            "La forêt d'Amakna",
+            "La forêt maléfique",
+            "Le berceau",
+            "Forêt des Abraknydes",
+            "Contour d'Astrub",
+            "Le coin des Tofus",
+            "Village de Pandala",
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Orée de la Millifutaie"       
         ],
         "step": 20,
         "type": "archi",
@@ -3332,8 +3354,14 @@
         "id": 354,
         "name": "Boudalf le Blanc",
         "zones": [
-            "Coin des Bouftous",
-            "Tainéla"
+            "La forêt d'Amakna",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Donjon des Bouftous",
+            "Contour d'Astrub",
+            "Prairies d'Astrub",
+            "Elevage de Bouftous du Château d'Amakna"
+
         ],
         "step": 20,
         "type": "archi",
@@ -3343,8 +3371,13 @@
         "id": 355,
         "name": "Boulgourvil le Lointain",
         "zones": [
-            "Coin des Bouftous",
-            "Tainéla"
+            "La forêt d'Amakna",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Donjon des Bouftous",
+            "Contour d'Astrub",
+            "Prairies d'Astrub",
+            "Elevage de Bouftous du Château d'Amakna"
         ],
         "step": 20,
         "type": "archi",
