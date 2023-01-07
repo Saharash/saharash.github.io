@@ -4988,7 +4988,7 @@
         "id": 504,
         "name": "Pandimaensh l'Animateur",
         "zones": [
-            "Bordure d'Aerdala,",
+            "Bordure d'Aerdala",
             "Bordure de Terrdala"
         ],
         "step": 27,
@@ -5522,10 +5522,9 @@
     },
     {
         "id": 554,
-        "name": "Alhoui le Répondeur",
+        "name": "Fanfancisco le Cosmopolite",
         "zones": [
-            "Dents de Pierre",
-            "Village des Kanigs"
+            "L'île de Grobe"
         ],
         "step": 30,
         "type": "archi",
@@ -5533,10 +5532,9 @@
     },
     {
         "id": 555,
-        "name": "Pantacour le Long",
+        "name": "Fanjipann le Sucré",
         "zones": [
-            "Dents de Pierre",
-            "Village des Kanigs"
+            "L'île de Grobe"
         ],
         "step": 30,
         "type": "archi",
@@ -5544,10 +5542,9 @@
     },
     {
         "id": 556,
-        "name": "Orfélyre le Charmeur",
+        "name": "Fanhnatur le Simple",
         "zones": [
-            "Dents de Pierre",
-            "Village des Kanigs"
+            "L'île de Grobe"
         ],
         "step": 30,
         "type": "archi",
@@ -5555,10 +5552,9 @@
     },
     {
         "id": 557,
-        "name": "Félyssion la Gourmande",
+        "name": "Fanjo le Pilote",
         "zones": [
-            "Dents de Pierre",
-            "Village des Kanigs"
+            "L'île de Grobe"
         ],
         "step": 30,
         "type": "archi",
@@ -5566,10 +5562,9 @@
     },
     {
         "id": 558,
-        "name": "Kanibière l'Encordée",
+        "name": "Fanlmyl l'Acuité",
         "zones": [
-            "Dents de Pierre",
-            "Village des Kanigs"
+            "L'île de Grobe"
         ],
         "step": 30,
         "type": "archi",
@@ -5607,9 +5602,10 @@
     },
     {
         "id": 562,
-        "name": "Bonpake le Chavireur",
+        "name": "Pangraive le Militant",
         "zones": [
-            "Terrdala"
+            "Bordure d'Aerdala", 
+            "Bordure de Terrdala"
         ],
         "step": 30,
         "type": "archi",
@@ -5617,7 +5613,7 @@
     },
     {
         "id": 563,
-        "name": "Kido l'\u00c2tre",
+        "name": "Kido l'âtre",
         "zones": [
             "Plaines herbeuses"
         ],
@@ -5637,9 +5633,12 @@
     },
     {
         "id": 565,
-        "name": "Larvaloeil l'Émue",
+        "name": "Dragoo le Cramoisi",
         "zones": [
-            "Champs de Cania"
+            "La presqu'île des Dragoeufs", 
+            "Sanctuaire des Dragoeufs", 
+            "Village des Dragoeufs", 
+            "Sous terrain des Dragoeufs"
         ],
         "step": 30,
         "type": "archi",
@@ -5647,9 +5646,12 @@
     },
     {
         "id": 566,
-        "name": "Souristiti l'Immortalisée",
+        "name": "Dragtonien le Malvoyant",
         "zones": [
-            "Champs de Cania"
+            "La presqu'île des Dragoeufs",
+            "Sanctuaire des Dragoeufs", 
+            "Village des Dragoeufs", 
+            "Sous terrain des Dragoeufs"
         ],
         "step": 30,
         "type": "archi",
@@ -5657,9 +5659,12 @@
     },
     {
         "id": 567,
-        "name": "Bourde le Maladroit",
+        "name": "Dragma le Bouillant",
         "zones": [
-            "Champs de Cania"
+            "La presqu'île des Dragoeufs",
+            "Sanctuaire des Dragoeufs", 
+            "Village des Dragoeufs", 
+            "Sous terrain des Dragoeufs"
         ],
         "step": 30,
         "type": "archi",
@@ -5667,9 +5672,12 @@
     },
     {
         "id": 568,
-        "name": "Fouflay le Retombé",
+        "name": "Dragoeth le Penseur",
         "zones": [
-            "Routes Rocailleuses"
+            "La presqu'île des Dragoeufs",
+            "Sanctuaire des Dragoeufs", 
+            "Village des Dragoeufs", 
+            "Sous terrain des Dragoeufs"
         ],
         "step": 30,
         "type": "archi",
@@ -5697,9 +5705,10 @@
     },
     {
         "id": 571,
-        "name": "Lichangora l'ImmaculÉe",
+        "name": "Bramin le Bicéphale",
         "zones": [
-            "Aerdala"
+            "Bordure de Terrdala",
+            "Forêt de Pandala"
         ],
         "step": 31,
         "type": "archi",
@@ -5728,9 +5737,13 @@
     },
     {
         "id": 574,
-        "name": "Inopenope le Négatif",
+        "name": "Kitsoupopulère le Généreux",
         "zones": [
-            "Aerdala"
+            "Pandala Neutre",
+            "Bordure d'Akwadala", 
+            "Bordure de Feudala",
+            "Bordure de Terrdala",
+            "Village de Feudala"
         ],
         "step": 31,
         "type": "archi",
@@ -5748,9 +5761,9 @@
     },
     {
         "id": 576,
-        "name": "Tétonée la Plantureuse",
+        "name": "Bulgig le Danseur",
         "zones": [
-            "Terrdala"
+            "Forêt de Pandala"
         ],
         "step": 31,
         "type": "archi",
@@ -5838,9 +5851,11 @@
     },
     {
         "id": 585,
-        "name": "Rooroku l'Imposant",
+        "name": "Bambono le Divin",
         "zones": [
-            "Aerdala"
+            "Pandala Neutre",
+            "Bordure d'Aerdala", 
+            "Forêt de Pandala"
         ],
         "step": 31,
         "type": "archi",
@@ -6212,9 +6227,10 @@
     },
     {
         "id": 621,
-        "name": "Crachefouxtre le Surpris",
+        "name": "YokaiKoral le Duel",
         "zones": [
-            "Feudala"
+            "Bordure de Feudala", 
+            "Village de Feudala"
         ],
         "step": 33,
         "type": "archi",
@@ -6242,9 +6258,9 @@
     },
     {
         "id": 624,
-        "name": "Jiankor le Radoteur",
+        "name": "Fansissla l'âne",
         "zones": [
-            "Cimetière de Grobe"
+            "L'île de Grobe"
         ],
         "step": 33,
         "type": "archi",
@@ -6252,9 +6268,9 @@
     },
     {
         "id": 625,
-        "name": "Onabuémangé la Rassasiée",
+        "name": "Fanstatik l'Etonnant",
         "zones": [
-            "Cimetière de Grobe"
+            "L'île de Grobe"
         ],
         "step": 33,
         "type": "archi",
@@ -6294,9 +6310,9 @@
     },
     {
         "id": 629,
-        "name": "Tambouille le Gastronome",
+        "name": "Fandouich l'Hautain",
         "zones": [
-            "Cimetière de Grobe"
+            "L'île de Grobe"
         ],
         "step": 33,
         "type": "archi",
@@ -6304,9 +6320,9 @@
     },
     {
         "id": 630,
-        "name": "Tsucékoi la Colporteuse",
+        "name": "Fanhopruno le Gourmet",
         "zones": [
-            "Cimetière de Grobe"
+            "L'île de Grobe"
         ],
         "step": 33,
         "type": "archi",
