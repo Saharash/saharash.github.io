@@ -3399,7 +3399,8 @@
         "id": 357,
         "name": "Arachitik la Souffreteuse",
         "zones": [
-            "Souterrains d'Astrub"
+            "Cité d'Astrub", 
+            "Souterrain d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3527,7 +3528,8 @@
         "id": 367,
         "name": "Tofurapin le Pétri",
         "zones": [
-            "Souterrains d'Astrub"
+            "Souterrain d'Astrub", 
+            "Souterrain profond d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3882,7 +3884,7 @@
         "id": 400,
         "name": "Milipussien le Géant",
         "zones": [
-            "Egout d'Astrub"
+            "Souterrain profond d'Astrub"
         ],
         "step": 22,
         "type": "archi",
