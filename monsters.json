@@ -1287,8 +1287,7 @@
         "id": 132,
         "name": "Aboub",
         "zones": [
-            "Mine des Dopeuls",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1297,8 +1296,7 @@
         "id": 133,
         "name": "Amlub",
         "zones": [
-            "Baie de Cania",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1307,8 +1305,7 @@
         "id": 134,
         "name": "Codem",
         "zones": [
-            "Baie de Cania",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1317,8 +1314,7 @@
         "id": 135,
         "name": "Gink",
         "zones": [
-            "Mine des Dopeuls",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1327,8 +1323,7 @@
         "id": 136,
         "name": "Kirevam",
         "zones": [
-            "Baie de Cania",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1337,8 +1332,7 @@
         "id": 137,
         "name": "Let Emoliug",
         "zones": [
-            "Baie de Cania",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1347,8 +1341,7 @@
         "id": 138,
         "name": "Nebgib",
         "zones": [
-            "Mine des Dopeuls",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1357,8 +1350,7 @@
         "id": 139,
         "name": "Nipul",
         "zones": [
-            "Mine des Dopeuls",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 7,
         "type": "monster"
@@ -1367,8 +1359,7 @@
         "id": 140,
         "name": "Osurc",
         "zones": [
-            "Mine des Dopeuls",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 8,
         "type": "monster"
@@ -1377,8 +1368,7 @@
         "id": 141,
         "name": "Susej",
         "zones": [
-            "Baie de Cania",
-            "Village des Dopeuls"
+            "Village Dopeul"
         ],
         "step": 8,
         "type": "monster"
@@ -3357,7 +3347,6 @@
             "La forêt d'Amakna",
             "Le coin des Bouftous",
             "Le berceau",
-            "Donjon des Bouftous",
             "Contour d'Astrub",
             "Prairies d'Astrub",
             "Elevage de Bouftous du Château d'Amakna"
@@ -3374,7 +3363,6 @@
             "La forêt d'Amakna",
             "Le coin des Bouftous",
             "Le berceau",
-            "Donjon des Bouftous",
             "Contour d'Astrub",
             "Prairies d'Astrub",
             "Elevage de Bouftous du Château d'Amakna"
@@ -3518,7 +3506,12 @@
         "id": 366,
         "name": "Tofuldebeu l'Explosif",
         "zones": [
-            "Champ des Ingalsse"
+            "Le champ des Ingalsses", 
+            "Le berceau", 
+            "Contour d'Astrub", 
+            "Champs d'Astrub", 
+            "Le coin des Tofus", 
+            "Prairies d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3539,8 +3532,19 @@
         "id": 368,
         "name": "Chamchie le Difficile",
         "zones": [
-            "Campagne d'Amakna",
-            "Coin des Bouftous"
+            "Le champ des Ingalsses",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Les Champs de Cania",
+            "Forêt d'Astrub",
+            "Champs d'Astrub",
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "Clairière de Brouce Boulgour", 
+            "Le chemin de fer abandonné",
+            "Orée de la Millifutaie",
+            "La campagne"
         ],
         "step": 20,
         "type": "archi",
@@ -3550,8 +3554,15 @@
         "id": 369,
         "name": "Pissdane l'Insipide",
         "zones": [
-            "Champs d'Astrub",
-            "Pâturages de Bonta"
+            "Le champ des Ingalsses", 
+            "Le berceau", 
+            "Forêt de Cania", 
+            "Les Champs de Cania", 
+            "Champs d'Astrub", 
+            "Orée de la forêt des Abraknydes", 
+            "Prairies d'Astrub", 
+            "Bordure de Bonta", 
+            "Le Bosquet du petit talus"
         ],
         "step": 20,
         "type": "archi",
@@ -3561,7 +3572,12 @@
         "id": 370,
         "name": "Araknay la Galopante",
         "zones": [
-            "Egout d'Astrub"
+            "Bord de la fôret maléfique",
+            "Forêt des Abraknydes", 
+            "Souterrain du Château d'Amakna", 
+            "La Millifutaie", 
+            "Le chemin de fer abandonné", 
+            "La campagne"
         ],
         "step": 20,
         "type": "archi",
@@ -3628,8 +3644,12 @@
         "id": 376,
         "name": "Boufdégou le Refoulant",
         "zones": [
-            "Coin des Bouftous",
-            "Tainéla"
+            "La forêt d'Amakna",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Contour d'Astrub", 
+            "Prairies d'Astrub", 
+            "Elevage de Bouftous du Château d'Amakna"
         ],
         "step": 21,
         "type": "archi",
@@ -3971,8 +3991,8 @@
         "id": 408,
         "name": "Bouflet le Puéril",
         "zones": [
-            "Coin des Bouftous",
-            "Tainéla"
+            "Le coin des Bouftous", 
+            "Le berceau"
         ],
         "step": 22,
         "type": "archi",
@@ -4819,10 +4839,11 @@
         "id": 489,
         "name": "Chafmarcel le Fêtard",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière des Héros",
+            "La forêt maléfique", 
+            "Cimetière de Bonta", 
             "Cimetière des Torturés",
-            "Forêt maléfique"
+            "Forêt d'Astrub", 
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 26,
         "type": "archi",
