@@ -2179,7 +2179,7 @@
         "id": 229,
         "name": "Abraknyde sombre",
         "zones": [
-            "Forêt des Abraknydes sombres"
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 12,
         "type": "monster"
@@ -3597,9 +3597,16 @@
         "id": 372,
         "name": "Roz la Magicienne",
         "zones": [
+            "Le champ des Ingalsses",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Forêt de Cania",
+            "Les Champs de Cania",
             "Champs d'Astrub",
-            "Coin des Bouftous",
-            "Pâturages de Bonta"
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "Le Bosquet du petit talus"
         ],
         "step": 21,
         "type": "archi",
@@ -5766,7 +5773,7 @@
         "id": 575,
         "name": "Abrakanette l'Encapsulé",
         "zones": [
-            "Forêt Sombre"
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 31,
         "type": "archi",
