@@ -53,9 +53,9 @@
         "id": 6,
         "name": "Tofu Maléfique",
         "zones": [
-            "Cimetière",
-            "Cryptes du cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "Les cryptes",
+            "La forêt maléfique"
         ],
         "step": 1,
         "type": "monster"
@@ -187,11 +187,22 @@
         "id": 18,
         "name": "Larve Bleue",
         "zones": [
-            "Bord de la forêt maléfique",
-            "Côte d'Asse",
             "Port de Madrestam",
+            "La montagne des Craqueleurs",
+            "Le champ des Ingalsses",
+            "La forêt d'Amakna",
+            "Bord de la fôret maléfique",
+            "Forêt des Abraknydes",
+            "Contour d'Astrub",
+            "Champs d'Astrub",
+            "Le coin des Tofus",
+            "Village de Pandala",
+            "La jungle profonde de Moon",
+            "Forêt des Abraknydes Sombres",
+            "Orée de la forêt des Abraknydes",
+            "Plaine des Scarafeuilles",
             "Prairies d'Astrub",
-            "Rivière Kawaii"
+            "Montagne basse des Craqueleurs"
         ],
         "step": 1,
         "type": "monster"
@@ -281,8 +292,7 @@
         "id": 27,
         "name": "Gelée Bleue",
         "zones": [
-            "Gelaxième dimension",
-            "Péninsule des Gelées"
+            "La péninsule des gelées"
         ],
         "step": 2,
         "type": "monster"
@@ -291,8 +301,7 @@
         "id": 28,
         "name": "Gelée Menthe",
         "zones": [
-            "Gelaxième dimension",
-            "Péninsule des Gelées"
+            "La péninsule des gelées"
         ],
         "step": 2,
         "type": "monster"
@@ -301,8 +310,9 @@
         "id": 29,
         "name": "Kwoan",
         "zones": [
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Le champ du repos"
         ],
         "step": 2,
         "type": "monster"
@@ -918,7 +928,7 @@
         "id": 93,
         "name": "Gelée Fraise",
         "zones": [
-            "Péninsule des Gelées"
+            "La péninsule des gelées"
         ],
         "step": 5,
         "type": "monster"
@@ -936,9 +946,12 @@
         "id": 95,
         "name": "Chafer Invisible",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Cimetière de Bonta",
+            "Cimetière des Torturés",
+            "Forêt d'Astrub",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 5,
         "type": "monster"
@@ -1023,9 +1036,9 @@
         "id": 104,
         "name": "Rib",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Cimetière de Bonta"
         ],
         "step": 6,
         "type": "monster"
@@ -1107,8 +1120,7 @@
         "id": 113,
         "name": "Chafer Fantassin",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière"
+            "Le cimetière"
         ],
         "step": 6,
         "type": "monster"
@@ -1135,9 +1147,11 @@
         "id": 116,
         "name": "Chafer",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Cimetière de Bonta",
+            "Cimetière des Torturés",
+            "Forêt d'Astrub"
         ],
         "step": 6,
         "type": "monster"
@@ -1515,7 +1529,8 @@
         "id": 156,
         "name": "Abraknyde Vénérable",
         "zones": [
-            "Forêt Sombre"
+            "Forêt des Abraknydes",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 8,
         "type": "monster"
@@ -3375,9 +3390,9 @@
         "id": 356,
         "name": "Tofumanchou l'Empereur",
         "zones": [
-            "Cimetière",
-            "Cryptes du cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "Les cryptes",
+            "La forêt maléfique"
         ],
         "step": 20,
         "type": "archi",
@@ -3478,11 +3493,22 @@
         "id": 364,
         "name": "Larvonika l'Instrument",
         "zones": [
-            "Bord de la forêt maléfique",
-            "Côte d'Asse",
             "Port de Madrestam",
+            "La montagne des Craqueleurs",
+            "Le champ des Ingalsses",
+            "La forêt d'Amakna",
+            "Bord de la fôret maléfique",
+            "Forêt des Abraknydes",
+            "Contour d'Astrub",
+            "Champs d'Astrub",
+            "Le coin des Tofus",
+            "Village de Pandala",
+            "La jungle profonde de Moon",
+            "Forêt des Abraknydes Sombres",
+            "Orée de la forêt des Abraknydes",
+            "Plaine des Scarafeuilles",
             "Prairies d'Astrub",
-            "Rivière Kawaii"
+            "Montagne basse des Craqueleurs"
         ],
         "step": 20,
         "type": "archi",
@@ -3626,8 +3652,9 @@
         "id": 374,
         "name": "Kwoanneur le Frimeur",
         "zones": [
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Le champ du repos"
         ],
         "step": 21,
         "type": "archi",
@@ -4343,9 +4370,12 @@
         "id": 441,
         "name": "Chafalfer l'Optimiste",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Cimetière de Bonta",
+            "Cimetière des Torturés",
+            "Forêt d'Astrub",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 24,
         "type": "archi",
@@ -4439,9 +4469,9 @@
         "id": 450,
         "name": "Ribibi le Cher",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Cimetière de Bonta"
         ],
         "step": 24,
         "type": "archi",
@@ -4522,8 +4552,7 @@
         "id": 458,
         "name": "Chaffoin le Sournois",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière"
+            "Le cimetière"
         ],
         "step": 25,
         "type": "archi",
@@ -4567,9 +4596,11 @@
         "id": 462,
         "name": "Chafemal le Bagarreur",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière",
-            "Forêt maléfique"
+            "Le cimetière",
+            "La forêt maléfique",
+            "Cimetière de Bonta",
+            "Cimetière des Torturés",
+            "Forêt d'Astrub"
         ],
         "step": 25,
         "type": "archi",
@@ -4988,7 +5019,8 @@
         "id": 502,
         "name": "Abrakildas le Vénérable",
         "zones": [
-            "Forêt Sombre"
+            "Forêt des Abraknydes",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 27,
         "type": "archi",
@@ -5748,8 +5780,9 @@
         "id": 573,
         "name": "Warkolad l'Etreinte",
         "zones": [
+            "Forêt de Kaliptus",
             "Canyon sauvage",
-            "Forêt de Kaliptus"
+            "Vallée de la Morh'Kitu"
         ],
         "step": 31,
         "type": "archi",
@@ -5843,7 +5876,7 @@
         "id": 582,
         "name": "Abraklette le Fondant",
         "zones": [
-            "Forêt Sombre"
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 31,
         "type": "archi",
