@@ -211,7 +211,13 @@
         "id": 19,
         "name": "Crabe",
         "zones": [
-            "Rivages sufokien"
+            "Port de Madrestam",
+            "Côte d'Asse",
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Donjon Ensablé",
+            "Rivière Kawaii",
+            "Rivage du golfe sufokien"
         ],
         "step": 1,
         "type": "monster"
@@ -376,7 +382,10 @@
         "id": 35,
         "name": "Black Tiwabbit",
         "zones": [
-            "Île de la Cawotte"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 2,
         "type": "monster"
@@ -691,7 +700,9 @@
         "id": 68,
         "name": "Pichon Blanc",
         "zones": [
-            "Calanques d'Astrub"
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Donjon Ensablé"
         ],
         "step": 4,
         "type": "monster"
@@ -700,7 +711,9 @@
         "id": 69,
         "name": "Pichon Bleu",
         "zones": [
-            "Calanques d'Astrub"
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Donjon Ensablé"
         ],
         "step": 4,
         "type": "monster"
@@ -709,7 +722,9 @@
         "id": 70,
         "name": "Pichon Orange",
         "zones": [
-            "Calanques d'Astrub"
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Donjon Ensablé"
         ],
         "step": 4,
         "type": "monster"
@@ -718,7 +733,9 @@
         "id": 71,
         "name": "Pichon Vert",
         "zones": [
-            "Calanques d'Astrub"
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Donjon Ensablé"
         ],
         "step": 4,
         "type": "monster"
@@ -823,8 +840,10 @@
         "id": 82,
         "name": "Black Wabbit",
         "zones": [
-            "Île de la Cawotte",
-            "Îlot de la Couronne"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 5,
         "type": "monster"
@@ -1129,6 +1148,7 @@
         "id": 114,
         "name": "Pichon Kloune",
         "zones": [
+            "Baie de Cania",
             "Donjon Ensablé"
         ],
         "step": 6,
@@ -1776,7 +1796,8 @@
         "id": 183,
         "name": "Raul Mops",
         "zones": [
-            "Rivages sufokien"
+            "Baie de Cania",
+            "Donjon Ensablé"
         ],
         "step": 10,
         "type": "monster"
@@ -3483,7 +3504,12 @@
         "id": 363,
         "name": "Craraboss le Féérique",
         "zones": [
-            "Rivages sufokien"
+            "Port de Madrestam",
+            "Côte d'Asse",
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Rivière Kawaii",
+            "Rivage du golfe sufokien"
         ],
         "step": 20,
         "type": "archi",
@@ -3737,7 +3763,10 @@
         "id": 381,
         "name": "Tiwa'Missou le Gateux",
         "zones": [
-            "Île de la Cawotte"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 21,
         "type": "archi",
@@ -4076,6 +4105,7 @@
         "id": 413,
         "name": "Pichduitre le Totem",
         "zones": [
+            "Baie de Cania",
             "Calanques d'Astrub"
         ],
         "step": 23,
@@ -4086,6 +4116,7 @@
         "id": 414,
         "name": "Pichdourse le Puissant",
         "zones": [
+            "Baie de Cania",
             "Calanques d'Astrub"
         ],
         "step": 23,
@@ -4096,6 +4127,7 @@
         "id": 415,
         "name": "Pichtoire l'Erudit",
         "zones": [
+            "Baie de Cania",
             "Calanques d'Astrub"
         ],
         "step": 23,
@@ -4106,6 +4138,7 @@
         "id": 416,
         "name": "Pichakoté le Dégoutant",
         "zones": [
+            "Baie de Cania",
             "Calanques d'Astrub"
         ],
         "step": 23,
@@ -4214,8 +4247,10 @@
         "id": 426,
         "name": "Wagnagnah le Sanglant",
         "zones": [
-            "Île de la Cawotte",
-            "Îlot de la Couronne"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 23,
         "type": "archi",
@@ -4560,13 +4595,9 @@
     },
     {
         "id": 459,
-        "name": "Larvomatik le Propre",
+        "name": "Picht le Brioché",
         "zones": [
-            "Bord de la forêt maléfique",
-            "Côte d'Asse",
-            "Port de Madrestam",
-            "Prairies d'Astrub",
-            "Rivière Kawaii"
+            "Baie de Cania"
         ],
         "step": 25,
         "type": "archi",
@@ -5332,8 +5363,7 @@
         "id": 530,
         "name": "Rauligo le Sale",
         "zones": [
-            "Baie de Cania",
-            "Donjon Ensablé"
+            "Baie de Cania"
         ],
         "step": 28,
         "type": "archi",
