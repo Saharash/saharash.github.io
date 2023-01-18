@@ -278,6 +278,7 @@
         "id": 25,
         "name": "Bandit Manchot",
         "zones": [
+            "Campement des Bandits Manchots",
             "Passage vers Brâkmar"
         ],
         "step": 2,
@@ -372,8 +373,9 @@
         "id": 34,
         "name": "Boulanger Sombre",
         "zones": [
-            "Passage vers Brâkmar",
-            "Territoire des Bandits"
+            "Façade de Brâkmar",
+            "Territoire des Bandits",
+            "Passage vers Brâkmar"
         ],
         "step": 2,
         "type": "monster"
@@ -862,8 +864,11 @@
         "id": 83,
         "name": "Mineur Sombre",
         "zones": [
-            "Passage vers Brâkmar",
-            "Territoire des Bandits"
+            "La montagne des Craqueleurs",
+            "Souterrain",
+            "Façade de Brâkmar",
+            "Territoire des Bandits",
+            "Passage vers Brâkmar"
         ],
         "step": 5,
         "type": "monster"
@@ -1228,8 +1233,9 @@
         "id": 121,
         "name": "Forgeron Sombre",
         "zones": [
-            "Passage vers Brâkmar",
-            "Territoire des Bandits"
+            "Façade de Brâkmar",
+            "Territoire des Bandits",
+            "Passage vers Brâkmar"
         ],
         "step": 7,
         "type": "monster"
@@ -3649,6 +3655,7 @@
         "id": 371,
         "name": "Bandapar l'Exclu",
         "zones": [
+            "Campement des Bandits Manchots",
             "Passage vers Brâkmar"
         ],
         "step": 21,
@@ -3786,8 +3793,9 @@
         "id": 382,
         "name": "Boudur le Raide",
         "zones": [
-            "Passage vers Brâkmar",
-            "Territoire des Bandits"
+            "Façade de Brâkmar",
+            "Territoire des Bandits",
+            "Passage vers Brâkmar"
         ],
         "step": 21,
         "type": "archi",
@@ -4298,8 +4306,11 @@
         "id": 429,
         "name": "Minsinistre l'Elu",
         "zones": [
-            "Passage vers Brâkmar",
-            "Territoire des Bandits"
+            "La montagne des Craqueleurs",
+            "Souterrain",
+            "Façade de Brâkmar",
+            "Territoire des Bandits",
+            "Passage vers Brâkmar"
         ],
         "step": 23,
         "type": "archi",
@@ -4751,8 +4762,9 @@
         "id": 472,
         "name": "Forboyar l'Enigmatique",
         "zones": [
-            "Passage vers Brâkmar",
-            "Territoire des Bandits"
+            "Façade de Brâkmar",
+            "Territoire des Bandits",
+            "Passage vers Brâkmar"
         ],
         "step": 26,
         "type": "archi",
