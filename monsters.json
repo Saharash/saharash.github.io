@@ -691,7 +691,9 @@
         "id": 67,
         "name": "Étoile de la Mer d'Asse",
         "zones": [
-            "Rivages sufokien"
+            "Baie de Cania",
+            "Calanques d'Astrub",
+            "Donjon Ensablé"
         ],
         "step": 4,
         "type": "monster"
@@ -2305,6 +2307,7 @@
         "id": 239,
         "name": "Meupette",
         "zones": [
+            "Canopée du Kimbo",
             "Tronc de l'arbre Hakam"
         ],
         "step": 12,
@@ -2377,7 +2380,6 @@
         "id": 247,
         "name": "Disciple Zoth",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 13,
@@ -2478,7 +2480,6 @@
         "id": 258,
         "name": "Gamine Zoth",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 13,
@@ -2488,7 +2489,6 @@
         "id": 259,
         "name": "Guerrier Zoth",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 13,
@@ -2662,7 +2662,6 @@
         "id": 278,
         "name": "Sergent Zoth",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 15,
@@ -2672,7 +2671,6 @@
         "id": 279,
         "name": "Maître Zoth",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 15,
@@ -5968,7 +5966,6 @@
         "id": 588,
         "name": "Diskord le Belliqueux",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 31,
@@ -6080,7 +6077,6 @@
         "id": 599,
         "name": "Gastroth la Contagieuse",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 32,
@@ -6091,7 +6087,6 @@
         "id": 600,
         "name": "Guerumoth le Collant",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 32,
@@ -6248,7 +6243,6 @@
         "id": 615,
         "name": "Seripoth l'Ennemi",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 33,
@@ -6291,7 +6285,6 @@
         "id": 619,
         "name": "Don Kizoth l'Obstiné",
         "zones": [
-            "Village de la Canopée",
             "Village des Zoths"
         ],
         "step": 33,
