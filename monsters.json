@@ -394,7 +394,10 @@
         "id": 36,
         "name": "Tiwabbit",
         "zones": [
-            "Île de la Cawotte"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 2,
         "type": "monster"
@@ -403,7 +406,10 @@
         "id": 37,
         "name": "Tiwabbit Kiafin",
         "zones": [
-            "Île de la Cawotte"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 2,
         "type": "monster"
@@ -608,8 +614,10 @@
         "id": 58,
         "name": "Wabbit",
         "zones": [
-            "Île de la Cawotte",
-            "Îlot de la Couronne"
+            "Sous-terrains des Wabbits",
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 3,
         "type": "monster"
@@ -958,7 +966,7 @@
         "id": 94,
         "name": "Wabbit Squelette",
         "zones": [
-            "Îlot des Tombeaux"
+            "Ile des Wabbits Squelettes"
         ],
         "step": 5,
         "type": "monster"
@@ -1294,8 +1302,10 @@
         "id": 129,
         "name": "Grand Pa Wabbit",
         "zones": [
-            "Îlot de la Couronne",
-            "Îlot de Waldo"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 7,
         "type": "monster"
@@ -1304,8 +1314,10 @@
         "id": 130,
         "name": "Wo Wabbit",
         "zones": [
-            "Îlot de la Couronne",
-            "Îlot de Waldo"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 7,
         "type": "monster"
@@ -3785,7 +3797,10 @@
         "id": 383,
         "name": "Tiwalpé le Dévêtu",
         "zones": [
-            "Île de la Cawotte"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 21,
         "type": "archi",
@@ -3795,7 +3810,10 @@
         "id": 384,
         "name": "Tiwoflan le Lâche",
         "zones": [
-            "Île de la Cawotte"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 21,
         "type": "archi",
@@ -4021,8 +4039,10 @@
         "id": 405,
         "name": "Wabbitud le Constant",
         "zones": [
-            "Île de la Cawotte",
-            "Îlot de la Couronne"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 22,
         "type": "archi",
@@ -4393,7 +4413,7 @@
         "id": 440,
         "name": "Watdogue le Bien Nommé",
         "zones": [
-            "Îlot des Tombeaux"
+            "Ile des Wabbits Squelettes"
         ],
         "step": 24,
         "type": "archi",
@@ -4763,8 +4783,10 @@
         "id": 475,
         "name": "Grandilok le Clameur",
         "zones": [
-            "Îlot de la Couronne",
-            "Îlot de Waldo"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 26,
         "type": "archi",
@@ -4774,8 +4796,10 @@
         "id": 476,
         "name": "Wokènrôl le Danseur",
         "zones": [
-            "Îlot de la Couronne",
-            "Îlot de Waldo"
+            "Sous-terrains des Wabbits", 
+            "Ile des Wabbits",
+            "Ilot des Wabbits",
+            "Île du château des Wabbits"
         ],
         "step": 26,
         "type": "archi",
