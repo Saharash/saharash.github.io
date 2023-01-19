@@ -73,11 +73,9 @@
         "id": 8,
         "name": "Piou Bleu",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -86,11 +84,9 @@
         "id": 9,
         "name": "Piou Jaune",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -99,11 +95,9 @@
         "id": 10,
         "name": "Piou Rouge",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -112,11 +106,9 @@
         "id": 11,
         "name": "Piou Vert",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -125,11 +117,9 @@
         "id": 12,
         "name": "Piou Violet",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -138,11 +128,9 @@
         "id": 13,
         "name": "Piou Rose",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -3450,11 +3438,9 @@
         "id": 358,
         "name": "Pioustone le Problème",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3464,11 +3450,9 @@
         "id": 359,
         "name": "Pioulbrineur le Mercenaire",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3478,11 +3462,9 @@
         "id": 360,
         "name": "Pioulette la Coquine",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3492,11 +3474,9 @@
         "id": 361,
         "name": "Pioukas la Plante",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3506,11 +3486,9 @@
         "id": 362,
         "name": "Pioussokrim le Délétère",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
@@ -3560,11 +3538,9 @@
         "id": 365,
         "name": "Pioufe la Maquillée",
         "zones": [
-            "Astrub",
-            "Bonta",
-            "Brâkmar",
+            "Le village",
             "Sufokia",
-            "Village d'Amakna"
+            "Cité d'Astrub"
         ],
         "step": 20,
         "type": "archi",
