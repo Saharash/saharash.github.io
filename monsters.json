@@ -483,10 +483,11 @@
         "id": 44,
         "name": "Sanglier",
         "zones": [
-            "Bord de la forêt maléfique",
-            "Forêt d'Amakna",
+            "La forêt d'Amakna",
+            "Bord de la fôret maléfique",
             "Forêt d'Astrub",
-            "Milifutaie"
+            "La Millifutaie",
+            "La campagne"
         ],
         "step": 3,
         "type": "monster"
@@ -506,7 +507,7 @@
         "id": 46,
         "name": "Citwouille",
         "zones": [
-            "Forêt maléfique"
+            "La forêt maléfique"
         ],
         "step": 3,
         "type": "monster"
@@ -789,7 +790,7 @@
         "id": 75,
         "name": "Noeul",
         "zones": [
-            "Forêt maléfique"
+            "La forêt maléfique"
         ],
         "step": 4,
         "type": "monster"
@@ -828,9 +829,9 @@
         "name": "Bwork Mage",
         "zones": [
             "Campement des Bworks",
-            "Forêt maléfique",
-            "Montagne basse des Craqueleurs",
-            "Village des Bworks"
+            "La forêt maléfique",
+            "Gisgoul, le village devasté",
+            "Montagne basse des Craqueleurs"
         ],
         "step": 4,
         "type": "monster"
@@ -884,9 +885,9 @@
         "name": "Bwork Archer",
         "zones": [
             "Campement des Bworks",
-            "Forêt maléfique",
-            "Montagne basse des Craqueleurs",
-            "Village des Bworks"
+            "La forêt maléfique",
+            "Gisgoul, le village devasté",
+            "Montagne basse des Craqueleurs"
         ],
         "step": 5,
         "type": "monster"
@@ -1017,9 +1018,9 @@
         "name": "Bwork",
         "zones": [
             "Campement des Bworks",
-            "Forêt maléfique",
-            "Montagne basse des Craqueleurs",
-            "Village des Bworks"
+            "La forêt maléfique",
+            "Gisgoul, le village devasté",
+            "Montagne basse des Craqueleurs"
         ],
         "step": 5,
         "type": "monster"
@@ -2230,7 +2231,7 @@
         "id": 226,
         "name": "Oni",
         "zones": [
-            "Forêt maléfique"
+            "La forêt maléfique"
         ],
         "step": 12,
         "type": "monster"
@@ -3923,10 +3924,11 @@
         "id": 391,
         "name": "Sangria le Fruité",
         "zones": [
-            "Bord de la forêt maléfique",
-            "Forêt d'Amakna",
+            "La forêt d'Amakna",
+            "Bord de la fôret maléfique",
             "Forêt d'Astrub",
-            "Milifutaie"
+            "La Millifutaie",
+            "La campagne"
         ],
         "step": 22,
         "type": "archi",
@@ -3948,7 +3950,7 @@
         "id": 393,
         "name": "Citassaté le Service",
         "zones": [
-            "Forêt maléfique"
+            "La forêt maléfique"
         ],
         "step": 22,
         "type": "archi",
@@ -4269,7 +4271,7 @@
         "id": 423,
         "name": "Neufedur le Flottant",
         "zones": [
-            "Forêt maléfique"
+            "La forêt maléfique"
         ],
         "step": 23,
         "type": "archi",
@@ -4290,9 +4292,9 @@
         "name": "Bwormage le Respectueux",
         "zones": [
             "Campement des Bworks",
-            "Forêt maléfique",
-            "Montagne basse des Craqueleurs",
-            "Village des Bworks"
+            "La forêt maléfique",
+            "Gisgoul, le village devasté",
+            "Montagne basse des Craqueleurs"
         ],
         "step": 23,
         "type": "archi",
@@ -4350,9 +4352,9 @@
         "name": "Barchwork le Multicolore",
         "zones": [
             "Campement des Bworks",
-            "Forêt maléfique",
-            "Montagne basse des Craqueleurs",
-            "Village des Bworks"
+            "La forêt maléfique",
+            "Gisgoul, le village devasté",
+            "Montagne basse des Craqueleurs"
         ],
         "step": 23,
         "type": "archi",
@@ -4496,9 +4498,9 @@
         "name": "Bworkasse le Dégoutant",
         "zones": [
             "Campement des Bworks",
-            "Forêt maléfique",
-            "Montagne basse des Craqueleurs",
-            "Village des Bworks"
+            "La forêt maléfique",
+            "Gisgoul, le village devasté",
+            "Montagne basse des Craqueleurs"
         ],
         "step": 24,
         "type": "archi",
@@ -5880,7 +5882,7 @@
         "id": 572,
         "name": "Onihylis le Destructeur",
         "zones": [
-            "Forêt maléfique"
+            "La forêt maléfique"
         ],
         "step": 31,
         "type": "archi",
