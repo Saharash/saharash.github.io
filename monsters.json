@@ -474,7 +474,8 @@
         "id": 43,
         "name": "Trukikol",
         "zones": [
-            "Jungle Interdite"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 3,
         "type": "monster"
@@ -516,7 +517,8 @@
         "id": 47,
         "name": "Vampire",
         "zones": [
-            "Cryptes du cimetière"
+            "Les cryptes",
+            "Cimetière des Torturés"
         ],
         "step": 3,
         "type": "monster"
@@ -581,8 +583,11 @@
         "id": 54,
         "name": "Boo",
         "zones": [
-            "Coin des Boos",
-            "Marécages d'Amakna",
+            "Le marécage",
+            "Egout de Bonta",
+            "Egout de Brâkmar",
+            "Le coin des Boos",
+            "Souterrain du Château d'Amakna",
             "Marécages nauséabonds",
             "Marécages sans fond"
         ],
@@ -657,7 +662,8 @@
         "id": 61,
         "name": "Croc Gland",
         "zones": [
-            "Lande de Sidimote"
+            "Lande de Sidimote",
+            "Façade de Brâkmar"
         ],
         "step": 4,
         "type": "monster"
@@ -702,7 +708,10 @@
         "id": 66,
         "name": "Corbac",
         "zones": [
-            "Pénates du Corbac"
+            "Pénates du Corbac",
+            "Lande de Sidimote",
+            "Plaines Rocheuses",
+            "Façade de Brâkmar"
         ],
         "step": 4,
         "type": "monster"
@@ -775,7 +784,8 @@
         "id": 73,
         "name": "Maître Vampire",
         "zones": [
-            "Cryptes du cimetière"
+            "Les cryptes",
+            "Cimetière des Torturés"
         ],
         "step": 4,
         "type": "monster"
@@ -813,7 +823,9 @@
         "id": 77,
         "name": "Fourbasse",
         "zones": [
-            "Jungle Interdite"
+            "La plage de Moon",
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 4,
         "type": "monster"
@@ -843,7 +855,7 @@
         "id": 80,
         "name": "Croc Gland Enragé",
         "zones": [
-            "Bordure de Brâkmar"
+            "Façade de Brâkmar"
         ],
         "step": 4,
         "type": "monster"
@@ -969,6 +981,7 @@
         "id": 92,
         "name": "Dragodinde Amande Sauvage",
         "zones": [
+            "Plaine des Scarafeuilles",
             "Territoire des Dragodindes Sauvages"
         ],
         "step": 5,
@@ -1157,7 +1170,7 @@
         "id": 111,
         "name": "Boomba",
         "zones": [
-            "Chemin du Crâne"
+            "Le bateau pirate"
         ],
         "step": 6,
         "type": "monster"
@@ -1216,7 +1229,7 @@
         "id": 117,
         "name": "Crocodaille",
         "zones": [
-            "Marécages d'Amakna",
+            "Le marécage",
             "Marécages nauséabonds",
             "Marécages sans fond"
         ],
@@ -1245,6 +1258,7 @@
         "id": 120,
         "name": "Dragodinde Rousse Sauvage",
         "zones": [
+            "Plaine des Scarafeuilles",
             "Territoire des Dragodindes Sauvages"
         ],
         "step": 7,
@@ -1263,9 +1277,10 @@
     },
     {
         "id": 122,
-        "name": "Crustorail Koura\u00e7ao",
+        "name": "Crustorail Kouraçao",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 7,
         "type": "monster"
@@ -1274,7 +1289,8 @@
         "id": 123,
         "name": "Crustorail Malibout",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 7,
         "type": "monster"
@@ -1283,7 +1299,8 @@
         "id": 124,
         "name": "Crustorail Morito",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 7,
         "type": "monster"
@@ -1292,7 +1309,8 @@
         "id": 125,
         "name": "Crustorail Passaoh",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 7,
         "type": "monster"
@@ -1561,7 +1579,8 @@
         "id": 152,
         "name": "Palmifleur Malibout",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 8,
         "type": "monster"
@@ -1570,7 +1589,8 @@
         "id": 153,
         "name": "Palmifleur Morito",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 8,
         "type": "monster"
@@ -1579,7 +1599,8 @@
         "id": 154,
         "name": "Palmifleur Passaoh",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 8,
         "type": "monster"
@@ -1607,6 +1628,7 @@
         "id": 157,
         "name": "Craqueleur des Plaines",
         "zones": [
+            "Massif de Cania",
             "Plaines Rocheuses"
         ],
         "step": 8,
@@ -1718,7 +1740,8 @@
         "id": 169,
         "name": "Palmifleur Kouraçao",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 9,
         "type": "monster"
@@ -1826,7 +1849,8 @@
         "id": 181,
         "name": "Corailleur",
         "zones": [
-            "Plage de Corail"
+            "Plage de Corail",
+            "Grotte Hesque"
         ],
         "step": 10,
         "type": "monster"
@@ -1881,7 +1905,7 @@
         "id": 187,
         "name": "Canondorf",
         "zones": [
-            "Chemin du Crâne"
+            "Le bateau pirate"
         ],
         "step": 10,
         "type": "monster"
@@ -1890,7 +1914,7 @@
         "id": 188,
         "name": "Nakunbra",
         "zones": [
-            "Chemin du Crâne"
+            "Le bateau pirate"
         ],
         "step": 10,
         "type": "monster"
@@ -2017,7 +2041,7 @@
         "id": 202,
         "name": "Fantôme Ardent",
         "zones": [
-            "Cimetière de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 11,
         "type": "monster"
@@ -2026,7 +2050,7 @@
         "id": 203,
         "name": "Fantôme Arepo",
         "zones": [
-            "Cimetière de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 11,
         "type": "monster"
@@ -2035,7 +2059,7 @@
         "id": 204,
         "name": "Fantôme Brave",
         "zones": [
-            "Cimetière de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 11,
         "type": "monster"
@@ -2080,8 +2104,7 @@
         "id": 209,
         "name": "Chef Crocodaille",
         "zones": [
-            "Marécages d'Amakna",
-            "Marécages nauséabonds",
+            "Le marécage",
             "Marécages sans fond"
         ],
         "step": 11,
@@ -2317,7 +2340,7 @@
         "id": 235,
         "name": "Gloutovore",
         "zones": [
-            "Jungle profonde de Moon"
+            "La jungle profonde de Moon"
         ],
         "step": 12,
         "type": "monster"
@@ -3918,7 +3941,8 @@
         "id": 390,
         "name": "Trukul le Lent",
         "zones": [
-            "Jungle Interdite"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 21,
         "type": "archi",
@@ -3964,7 +3988,8 @@
         "id": 394,
         "name": "Vampunor le Glacial",
         "zones": [
-            "Cryptes du cimetière"
+            "Les cryptes",
+            "Cimetière des Torturés"
         ],
         "step": 22,
         "type": "archi",
@@ -4036,8 +4061,11 @@
         "id": 401,
         "name": "Boostif l'Affamé",
         "zones": [
-            "Coin des Boos",
-            "Marécages d'Amakna",
+            "Le marécage",
+            "Egout de Bonta",
+            "Egout de Brâkmar",
+            "Le coin des Boos",
+            "Souterrain du Château d'Amakna",
             "Marécages nauséabonds",
             "Marécages sans fond"
         ],
@@ -4129,7 +4157,8 @@
         "id": 409,
         "name": "Cromikay le Néophyte",
         "zones": [
-            "Lande de Sidimote"
+            "Lande de Sidimote",
+            "Façade de Brâkmar"
         ],
         "step": 22,
         "type": "archi",
@@ -4159,7 +4188,10 @@
         "id": 412,
         "name": "Corpat le Vampire",
         "zones": [
-            "Pénates du Corbac"
+            "Pénates du Corbac",
+            "Lande de Sidimote",
+            "Plaines Rocheuses",
+            "Façade de Brâkmar"
         ],
         "step": 23,
         "type": "archi",
@@ -4223,7 +4255,8 @@
         "id": 418,
         "name": "Maître Amboat le Moqueur",
         "zones": [
-            "Cryptes du cimetière"
+            "Les cryptes",
+            "Cimetière des Torturés"
         ],
         "step": 23,
         "type": "archi",
@@ -4246,7 +4279,9 @@
         "id": 420,
         "name": "Fourapin le Chaud",
         "zones": [
-            "Jungle Interdite"
+            "La plage de Moon",
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 23,
         "type": "archi",
@@ -4324,7 +4359,7 @@
         "id": 427,
         "name": "Crognan le Barbare",
         "zones": [
-            "Lande de Sidimote"
+            "Façade de Brâkmar"
         ],
         "step": 23,
         "type": "archi",
@@ -4448,6 +4483,7 @@
         "id": 438,
         "name": "Draglida la Disparue",
         "zones": [
+            "Plaine des Scarafeuilles",
             "Territoire des Dragodindes Sauvages"
         ],
         "step": 24,
@@ -4718,7 +4754,7 @@
         "id": 463,
         "name": "Crolnareff l'Exilé",
         "zones": [
-            "Marécages d'Amakna",
+            "Le marécage",
             "Marécages nauséabonds",
             "Marécages sans fond"
         ],
@@ -4750,6 +4786,7 @@
         "id": 466,
         "name": "Dragnoute l'Irascible",
         "zones": [
+            "Plaine des Scarafeuilles",
             "Territoire des Dragodindes Sauvages"
         ],
         "step": 25,
@@ -5150,6 +5187,7 @@
         "id": 503,
         "name": "Cramikaz le Suicidaire",
         "zones": [
+            "Massif de Cania",
             "Plaines Rocheuses"
         ],
         "step": 27,
@@ -5266,8 +5304,7 @@
         "id": 514,
         "name": "Palmbytch la Bronzée",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 28,
         "type": "archi",
@@ -5302,8 +5339,7 @@
         "id": 517,
         "name": "Corboyard l'Enigmatique",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 28,
         "type": "archi",
@@ -5472,7 +5508,7 @@
         "id": 532,
         "name": "Caboume l'Artilleur",
         "zones": [
-            "Chemin du Crâne"
+            "Le bateau pirate"
         ],
         "step": 29,
         "type": "archi",
@@ -5482,7 +5518,7 @@
         "id": 533,
         "name": "Nakuneuye le Borgne",
         "zones": [
-            "Chemin du Crâne"
+            "Le bateau pirate"
         ],
         "step": 29,
         "type": "archi",
@@ -5613,7 +5649,7 @@
         "id": 546,
         "name": "Fandanleuil le Précis",
         "zones": [
-            "Bordure de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 29,
         "type": "archi",
@@ -5623,7 +5659,7 @@
         "id": 547,
         "name": "Fantoch le Pantin",
         "zones": [
-            "Bordure de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 29,
         "type": "archi",
@@ -5631,9 +5667,9 @@
     },
     {
         "id": 548,
-        "name": "Fantrask la Rêveuse",
+        "name": "Fantrask le Rêveur",
         "zones": [
-            "Bordure de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 29,
         "type": "archi",
@@ -5683,8 +5719,7 @@
         "id": 553,
         "name": "Crok le Beau",
         "zones": [
-            "Marécages d'Amakna",
-            "Marécages nauséabonds",
+            "Le marécage",
             "Marécages sans fond"
         ],
         "step": 30,
@@ -5955,7 +5990,7 @@
         "id": 578,
         "name": "Gloubibou le Gars",
         "zones": [
-            "Jungle Interdite"
+            "La jungle profonde de Moon"
         ],
         "step": 31,
         "type": "archi",
