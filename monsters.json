@@ -605,7 +605,9 @@
         "id": 56,
         "name": "Cochon de Lait",
         "zones": [
-            "Plaine des Porkass"
+            "Territoire des Porcos",
+            "Souterrain",
+            "Labyrinthe du Dragon Cochon"
         ],
         "step": 3,
         "type": "monster"
@@ -645,6 +647,7 @@
         "id": 60,
         "name": "Berger Porkass",
         "zones": [
+            "Plaines Rocheuses",
             "Plaine des Porkass"
         ],
         "step": 3,
@@ -1356,6 +1359,7 @@
         "id": 131,
         "name": "Cavalier Porkass",
         "zones": [
+            "Plaines Rocheuses",
             "Plaine des Porkass"
         ],
         "step": 7,
@@ -4058,7 +4062,9 @@
         "id": 403,
         "name": "Chonstip la Passagère",
         "zones": [
-            "Plaine des Porkass"
+            "Territoire des Porcos",
+            "Souterrain",
+            "Labyrinthe du Dragon Cochon"
         ],
         "step": 22,
         "type": "archi",
@@ -4091,6 +4097,7 @@
         "id": 406,
         "name": "Porfavor le Quémandeur",
         "zones": [
+            "Plaines Rocheuses",
             "Plaine des Porkass"
         ],
         "step": 22,
@@ -4637,8 +4644,7 @@
         "id": 456,
         "name": "Farlon l'Enfant",
         "zones": [
-            "Territoire des Porcos",
-            "Labyrinthe du Dragon Cochon"
+            "Territoire des Porcos"
         ],
         "step": 25,
         "type": "archi",
@@ -4869,6 +4875,7 @@
         "id": 477,
         "name": "Cavordemal le Sorcier",
         "zones": [
+            "Plaines Rocheuses",
             "Plaine des Porkass"
         ],
         "step": 26,
@@ -5122,7 +5129,7 @@
         "id": 501,
         "name": "Sampi l'Eternel",
         "zones": [
-            "Plaine des Porkass"
+            "Forêt de Cania"
         ],
         "step": 27,
         "type": "archi",
