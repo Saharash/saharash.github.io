@@ -794,7 +794,8 @@
         "id": 74,
         "name": "Minoskito",
         "zones": [
-            "Île du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 4,
         "type": "monster"
@@ -954,7 +955,8 @@
         "id": 89,
         "name": "Mandrine",
         "zones": [
-            "Île du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 5,
         "type": "monster"
@@ -1059,7 +1061,8 @@
         "id": 99,
         "name": "Kraméléhon",
         "zones": [
-            "Île du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 5,
         "type": "monster"
@@ -1161,7 +1164,8 @@
         "id": 110,
         "name": "Scaratos",
         "zones": [
-            "Labyrinthe du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 6,
         "type": "monster"
@@ -1531,7 +1535,8 @@
         "id": 147,
         "name": "Gamino",
         "zones": [
-            "Labyrinthe du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 8,
         "type": "monster"
@@ -1684,7 +1689,8 @@
         "id": 163,
         "name": "Kanniboul Archer",
         "zones": [
-            "Jungle profonde de Moon"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 9,
         "type": "monster"
@@ -1693,7 +1699,8 @@
         "id": 164,
         "name": "Kanniboul Jav",
         "zones": [
-            "Jungle profonde de Moon"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 9,
         "type": "monster"
@@ -1702,7 +1709,8 @@
         "id": 165,
         "name": "Kanniboul Sarbak",
         "zones": [
-            "Jungle profonde de Moon"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 9,
         "type": "monster"
@@ -1711,7 +1719,8 @@
         "id": 166,
         "name": "Kanniboul Thierry",
         "zones": [
-            "Jungle profonde de Moon"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 9,
         "type": "monster"
@@ -4303,7 +4312,8 @@
         "id": 422,
         "name": "Minoskour le Sauveur",
         "zones": [
-            "Île du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 23,
         "type": "archi",
@@ -4453,7 +4463,8 @@
         "id": 435,
         "name": "Mandalo l'Aqueuse",
         "zones": [
-            "Île du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 24,
         "type": "archi",
@@ -4568,7 +4579,8 @@
         "id": 445,
         "name": "Krapahut le Randonneur",
         "zones": [
-            "Île du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 24,
         "type": "archi",
@@ -4690,7 +4702,8 @@
         "id": 457,
         "name": "Scaratyn l'Huître",
         "zones": [
-            "Labyrinthe du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 25,
         "type": "archi",
@@ -5084,7 +5097,8 @@
         "id": 493,
         "name": "Germinol l'Indigent",
         "zones": [
-            "Labyrinthe du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 27,
         "type": "archi",
@@ -5251,7 +5265,8 @@
         "id": 509,
         "name": "Kannibal le Lecteur",
         "zones": [
-            "Forêt des Masques"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 27,
         "type": "archi",
@@ -5261,7 +5276,8 @@
         "id": 510,
         "name": "Kapota la Fraise",
         "zones": [
-            "Forêt des Masques"
+            "La jungle profonde de Moon",
+            "Le chemin vers Moon"
         ],
         "step": 27,
         "type": "archi",
