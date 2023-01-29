@@ -985,7 +985,7 @@
         "id": 91,
         "name": "Gargrouille",
         "zones": [
-            "Le champs du Repos"
+            "Le champ du repos"
         ],
         "step": 5,
         "type": "monster"
@@ -1267,7 +1267,8 @@
         "id": 118,
         "name": "Rat d'Egoutant malade",
         "zones": [
-            "Souterrains profonds d'Astrub"
+            "Souterrain profond d'Astrub",
+            "Souterrain du Château d'Amakna"
         ],
         "step": 6,
         "type": "monster"
@@ -1514,10 +1515,11 @@
         "id": 143,
         "name": "Chafer Archer",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière des Héros",
+            "La forêt maléfique",
+            "Cimetière de Bonta",
             "Cimetière des Torturés",
-            "Forêt maléfique"
+            "Forêt d'Astrub",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 8,
         "type": "monster"
@@ -1526,9 +1528,10 @@
         "id": 144,
         "name": "Chafer Lancier",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière des Héros",
-            "Cimetière des Torturés"
+            "Cimetière de Bonta",
+            "Cimetière des Torturés",
+            "Forêt d'Astrub",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 8,
         "type": "monster"
@@ -1592,7 +1595,7 @@
         "id": 150,
         "name": "Le Ouassingue",
         "zones": [
-            "Cimetière d'Astrub"
+            "Le champ du repos"
         ],
         "step": 8,
         "type": "monster"
@@ -1601,7 +1604,7 @@
         "id": 151,
         "name": "La Ouassingue",
         "zones": [
-            "Cimetière d'Astrub"
+            "Le champ du repos"
         ],
         "step": 8,
         "type": "monster"
@@ -1689,7 +1692,8 @@
         "id": 160,
         "name": "Maître Bolet",
         "zones": [
-            "Routes Rocailleuses"
+            "Les Champs de Cania",
+            "Bordure de Bonta"
         ],
         "step": 9,
         "type": "monster"
@@ -1928,7 +1932,10 @@
         "id": 185,
         "name": "Cooleuvre",
         "zones": [
-            "Pandala"
+            "Pandala Neutre",
+            "Bordure d'Aerdala",
+            "Bordure de Terrdala",
+            "Forêt de Pandala"
         ],
         "step": 10,
         "type": "monster"
@@ -2073,7 +2080,7 @@
         "id": 201,
         "name": "Fantôme Apero",
         "zones": [
-            "Cimetière de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 11,
         "type": "monster"
@@ -4539,7 +4546,7 @@
         "id": 437,
         "name": "Garsim le Mort",
         "zones": [
-            "Cimetière d'Astrub"
+            "Le champ du repos"
         ],
         "step": 24,
         "type": "archi",
@@ -4842,7 +4849,8 @@
         "id": 464,
         "name": "Radoutable le Craint",
         "zones": [
-            "Egout d'Astrub"
+            "Souterrain profond d'Astrub",
+            "Souterrain du Château d'Amakna"
         ],
         "step": 25,
         "type": "archi",
@@ -5110,10 +5118,10 @@
         "id": 489,
         "name": "Chafmarcel le Fêtard",
         "zones": [
-            "La forêt maléfique", 
-            "Cimetière de Bonta", 
+            "La forêt maléfique",
+            "Cimetière de Bonta",
             "Cimetière des Torturés",
-            "Forêt d'Astrub", 
+            "Forêt d'Astrub",
             "Forêt des Abraknydes Sombres"
         ],
         "step": 26,
@@ -5124,9 +5132,10 @@
         "id": 490,
         "name": "Chalan le Commerçant",
         "zones": [
-            "Bois de Litneg",
-            "Cimetière des Héros",
-            "Cimetière des Torturés"
+            "Cimetière de Bonta",
+            "Cimetière des Torturés",
+            "Forêt d'Astrub",
+            "Forêt des Abraknydes Sombres"
         ],
         "step": 26,
         "type": "archi",
@@ -5182,7 +5191,7 @@
         "id": 495,
         "name": "Ouature la Mobile",
         "zones": [
-            "Cimetière d'Astrub"
+            "Le champ du repos"
         ],
         "step": 27,
         "type": "archi",
@@ -5192,7 +5201,7 @@
         "id": 496,
         "name": "Ouassébo l'Esthète",
         "zones": [
-            "Cimetière d'Astrub"
+            "Le champ du repos"
         ],
         "step": 27,
         "type": "archi",
@@ -5308,7 +5317,8 @@
         "id": 507,
         "name": "Maître Onom le Régulier",
         "zones": [
-            "Routes Rocailleuses"
+            "Les Champs de Cania",
+            "Bordure de Bonta"
         ],
         "step": 27,
         "type": "archi",
@@ -5576,9 +5586,12 @@
     },
     {
         "id": 531,
-        "name": "Tilolo la Bien Moulée",
+        "name": "Cooligane le Névrosé",
         "zones": [
-            "Terrdala"
+            "Pandala Neutre",
+            "Bordure d'Aerdala",
+            "Bordure de Terrdala",
+            "Forêt de Pandala"
         ],
         "step": 29,
         "type": "archi",
@@ -5719,7 +5732,7 @@
         "id": 545,
         "name": "Fanlabiz le Véloce",
         "zones": [
-            "Bordure de Brâkmar"
+            "Cimetière des Torturés"
         ],
         "step": 29,
         "type": "archi",
