@@ -2200,7 +2200,10 @@
         "id": 215,
         "name": "Mulou",
         "zones": [
-            "Hauts des Hurlements"
+            "La montagne des Craqueleurs",
+            "Souterrain",
+            "Bois de Litneg",
+            "Orée de la forêt des Abraknydes"
         ],
         "step": 11,
         "type": "monster"
@@ -5877,7 +5880,10 @@
         "id": 561,
         "name": "Muloufok l'Hilarant",
         "zones": [
-            "Hauts des Hurlements"
+            "La montagne des Craqueleurs",
+            "Souterrain",
+            "Bois de Litneg",
+            "Orée de la forêt des Abraknydes"
         ],
         "step": 30,
         "type": "archi",
