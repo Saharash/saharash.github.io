@@ -1888,7 +1888,7 @@
     },
     {
         "id": 177,
-        "name": "Dragoss de saphir",
+        "name": "Dragoss de Saphir",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2696,7 +2696,7 @@
     },
     {
         "id": 262,
-        "name": "Dragoss blanc éveilé",
+        "name": "Dragoss Blanc Eveillé",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2705,7 +2705,7 @@
     },
     {
         "id": 263,
-        "name": "Dragoss doré éveillé",
+        "name": "Dragoss Doré Eveillé",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2714,7 +2714,7 @@
     },
     {
         "id": 264,
-        "name": "Dragoss noir éveillé",
+        "name": "Dragoss Noir Eveillé",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2723,7 +2723,7 @@
     },
     {
         "id": 265,
-        "name": "Dragoss de saphir éveillé",
+        "name": "Dragoss de Saphir Eveillé",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -6424,8 +6424,7 @@
         "id": 603,
         "name": "Dragminster le Magicien",
         "zones": [
-            "Souterrains des Dragoeufs",
-            "Village des Dragoeufs"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 32,
         "type": "archi",
@@ -6435,8 +6434,7 @@
         "id": 604,
         "name": "Dragtarus le Bellâtre",
         "zones": [
-            "Souterrains des Dragoeufs",
-            "Village des Dragoeufs"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 32,
         "type": "archi",
@@ -6446,8 +6444,7 @@
         "id": 605,
         "name": "Draquetteur le Voleur",
         "zones": [
-            "Souterrains des Dragoeufs",
-            "Village des Dragoeufs"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 32,
         "type": "archi",
@@ -6457,8 +6454,7 @@
         "id": 606,
         "name": "Drageaufol la Joyeuse",
         "zones": [
-            "Souterrains des Dragoeufs",
-            "Village des Dragoeufs"
+            "Sanctuaire des Dragoeufs"
         ],
         "step": 32,
         "type": "archi",
