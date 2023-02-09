@@ -23,8 +23,17 @@
         "id": 3,
         "name": "Arakne",
         "zones": [
-            "Campagne d'Amakna",
-            "Forêt maléfique"
+            "La forêt d'Amakna",
+            "La forêt maléfique",
+            "Souterrain",
+            "Le berceau",
+            "Forêt des Abraknydes",
+            "Contour d'Astrub",
+            "Le coin des Tofus",
+            "Village de Pandala",
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Orée de la Millifutaie"
         ],
         "step": 1,
         "type": "monster"
@@ -64,7 +73,8 @@
         "id": 7,
         "name": "Arakne Malade",
         "zones": [
-            "Souterrains d'Astrub"
+            "Cité d'Astrub",
+            "Souterrain d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -214,7 +224,12 @@
         "id": 20,
         "name": "Tofu",
         "zones": [
-            "Champ des Ingalsse"
+            "Le champ des Ingalsses",
+            "Le berceau",
+            "Contour d'Astrub",
+            "Champs d'Astrub",
+            "Le coin des Tofus",
+            "Prairies d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -223,7 +238,8 @@
         "id": 21,
         "name": "Tofu Malade",
         "zones": [
-            "Souterrains d'Astrub"
+            "Souterrain d'Astrub",
+            "Souterrain profond d'Astrub"
         ],
         "step": 2,
         "type": "monster"
@@ -232,8 +248,19 @@
         "id": 22,
         "name": "Champ Champ",
         "zones": [
-            "Campagne d'Amakna",
-            "Coin des Bouftous"
+            "Le champ des Ingalsses",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Les Champs de Cania",
+            "Forêt d'Astrub",
+            "Champs d'Astrub",
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "Clairière de Brouce Boulgour",
+            "Le chemin de fer abandonné",
+            "Orée de la Millifutaie",
+            "La campagne"
         ],
         "step": 2,
         "type": "monster"
@@ -242,8 +269,15 @@
         "id": 23,
         "name": "Pissenlit Diabolique",
         "zones": [
+            "Le champ des Ingalsses",
+            "Le berceau",
+            "Forêt de Cania",
+            "Les Champs de Cania",
             "Champs d'Astrub",
-            "Pâturages de Bonta"
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "Le Bosquet du petit talus"
         ],
         "step": 2,
         "type": "monster"
@@ -276,9 +310,16 @@
         "id": 26,
         "name": "Rose Démoniaque",
         "zones": [
+            "Le champ des Ingalsses",
+            "Le coin des Bouftous",
+            "Le berceau",
+            "Forêt de Cania",
+            "Les Champs de Cania",
             "Champs d'Astrub",
-            "Coin des Bouftous",
-            "Pâturages de Bonta"
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "Le Bosquet du petit talus"
         ],
         "step": 2,
         "type": "monster"
@@ -424,8 +465,16 @@
         "id": 38,
         "name": "Tournesol Sauvage",
         "zones": [
+            "Le champ des Ingalsses",
+            "Le berceau",
+            "Forêt de Cania",
+            "Les Champs de Cania",
             "Champs d'Astrub",
-            "Pâturages de Bonta"
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "La campagne",
+            "Le Bosquet du petit talus"
         ],
         "step": 2,
         "type": "monster"
@@ -454,18 +503,18 @@
         "id": 41,
         "name": "Nodkoko",
         "zones": [
-            "Île des naufragés",
-            "Plage de la Tortue"
+            "La plage de Moon",
+            "Ile des naufragés"
         ],
         "step": 3,
         "type": "monster"
     },
     {
         "id": 42,
-        "name": "Tikoko",
+        "name": "Tikokoko",
         "zones": [
-            "Île des naufragés",
-            "Plage de la Tortue"
+            "La plage de Moon",
+            "Ile des naufragés"
         ],
         "step": 3,
         "type": "monster"
@@ -629,7 +678,7 @@
         "id": 57,
         "name": "Tortue Jaune",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 3,
         "type": "monster"
@@ -692,7 +741,7 @@
         "id": 63,
         "name": "Tortue Bleue",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 4,
         "type": "monster"
@@ -701,7 +750,7 @@
         "id": 64,
         "name": "Tortue Rouge",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 4,
         "type": "monster"
@@ -710,7 +759,7 @@
         "id": 65,
         "name": "Tortue Verte",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 4,
         "type": "monster"
@@ -786,7 +835,11 @@
         "id": 72,
         "name": "Bambouto",
         "zones": [
-            "Pandala"
+            "Pandala Neutre",
+            "Bordure d'Akwadala",
+            "Bordure d'Aerdala",
+            "Bordure de Terrdala",
+            "Forêt de Pandala"
         ],
         "step": 4,
         "type": "monster"
@@ -824,9 +877,12 @@
         "id": 76,
         "name": "Milimulou",
         "zones": [
-            "Forêt d'Amakna",
+            "La forêt d'Amakna",
+            "Forêt des Abraknydes",
+            "Bois de Litneg",
             "Forêt d'Astrub",
-            "Milifutaie"
+            "Orée de la forêt des Abraknydes",
+            "La Millifutaie"
         ],
         "step": 4,
         "type": "monster"
@@ -879,8 +935,7 @@
         "id": 81,
         "name": "Rose Obscure",
         "zones": [
-            "Champs des Ingalsses",
-            "Pâturages de Bonta"
+            "Le champ des Ingalsses"
         ],
         "step": 5,
         "type": "monster"
@@ -1137,8 +1192,7 @@
         "zones": [
             "Plaine de Cania",
             "Route de Bonta",
-            "Massif de Cania",
-            "Donjon des Blops"
+            "Massif de Cania"
         ],
         "step": 6,
         "type": "monster"
@@ -1149,8 +1203,7 @@
         "zones": [
             "Plaine de Cania",
             "Route de Bonta",
-            "Massif de Cania",
-            "Donjon des Blops"
+            "Massif de Cania"
         ],
         "step": 6,
         "type": "monster"
@@ -1161,8 +1214,7 @@
         "zones": [
             "Plaine de Cania",
             "Route de Bonta",
-            "Massif de Cania",
-            "Donjon des Blops"
+            "Massif de Cania"
         ],
         "step": 6,
         "type": "monster"
@@ -1173,8 +1225,7 @@
         "zones": [
             "Plaine de Cania",
             "Route de Bonta",
-            "Massif de Cania",
-            "Donjon des Blops"
+            "Massif de Cania"
         ],
         "step": 6,
         "type": "monster"
@@ -1313,8 +1364,7 @@
         "id": 122,
         "name": "Crustorail Kouraçao",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 7,
         "type": "monster"
@@ -1323,8 +1373,7 @@
         "id": 123,
         "name": "Crustorail Malibout",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 7,
         "type": "monster"
@@ -1333,8 +1382,7 @@
         "id": 124,
         "name": "Crustorail Morito",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 7,
         "type": "monster"
@@ -1343,8 +1391,7 @@
         "id": 125,
         "name": "Crustorail Passaoh",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 7,
         "type": "monster"
@@ -1518,8 +1565,8 @@
         "id": 142,
         "name": "Kokoko",
         "zones": [
-            "Île des naufragés",
-            "Plage de la Tortue"
+            "La plage de Moon",
+            "Ile des naufragés"
         ],
         "step": 8,
         "type": "monster"
@@ -1586,10 +1633,7 @@
         "zones": [
             "Egout de Bonta",
             "Egout de Brâkmar",
-            "Souterrain du Château d'Amakna",
-            "Donjon des Rats de Bonta",
-            "Donjon des Rats de Brâkmar",
-            "Donjon des Rats du Château d'Amakna"
+            "Souterrain du Château d'Amakna"
         ],
         "step": 8,
         "type": "monster"
@@ -1626,8 +1670,7 @@
         "id": 152,
         "name": "Palmifleur Malibout",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 8,
         "type": "monster"
@@ -1636,8 +1679,7 @@
         "id": 153,
         "name": "Palmifleur Morito",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 8,
         "type": "monster"
@@ -1646,8 +1688,7 @@
         "id": 154,
         "name": "Palmifleur Passaoh",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 8,
         "type": "monster"
@@ -1783,11 +1824,11 @@
     },
     {
         "id": 168,
-        "name": "Rat d'Égoutant",
+        "name": "Rat d'Egoutant",
         "zones": [
             "Egout de Bonta",
             "Egout de Brâkmar",
-            "Souterrains du Château d'Amakna"
+            "Souterrain du Château d'Amakna"
         ],
         "step": 9,
         "type": "monster"
@@ -1796,8 +1837,7 @@
         "id": 169,
         "name": "Palmifleur Kouraçao",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 9,
         "type": "monster"
@@ -1909,7 +1949,8 @@
         "id": 180,
         "name": "Serpiplume",
         "zones": [
-            "Labyrinthe du Minotoror"
+            "L'île du Minotoror",
+            "Le labyrinthe du Minotoror"
         ],
         "step": 10,
         "type": "monster"
@@ -1918,8 +1959,7 @@
         "id": 181,
         "name": "Corailleur",
         "zones": [
-            "Plage de Corail",
-            "Grotte Hesque"
+            "Plage de Corail"
         ],
         "step": 10,
         "type": "monster"
@@ -1973,7 +2013,7 @@
         "id": 186,
         "name": "Coquille Explosive",
         "zones": [
-            "Presqu'île des Dragoeufs"
+            "Village des Dragoeufs"
         ],
         "step": 10,
         "type": "monster"
@@ -2373,8 +2413,9 @@
         "id": 227,
         "name": "Warko Marron",
         "zones": [
+            "Forêt de Kaliptus",
             "Canyon sauvage",
-            "Forêt de Kaliptus"
+            "Vallée de la Morh'Kitu"
         ],
         "step": 12,
         "type": "monster"
@@ -2486,7 +2527,6 @@
         "id": 239,
         "name": "Meupette",
         "zones": [
-            "Canopée du Kimbo",
             "Tronc de l'arbre Hakam"
         ],
         "step": 12,
@@ -2958,36 +2998,36 @@
     },
     {
         "id": 290,
-        "name": "Fantôme léopardo",
+        "name": "Fantôme Léopardo",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 15,
         "type": "monster"
     },
     {
         "id": 291,
-        "name": "Fantôme pandikaze",
+        "name": "Fantôme Pandikaze",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 15,
         "type": "monster"
     },
     {
         "id": 292,
-        "name": "Fantôme pandule",
+        "name": "Fantôme Pandule",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 15,
         "type": "monster"
     },
     {
         "id": 293,
-        "name": "Fantôme soryo",
+        "name": "Fantôme Soryo Firefoux",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 15,
         "type": "monster"
@@ -3014,27 +3054,27 @@
     },
     {
         "id": 296,
-        "name": "Fantôme maho",
+        "name": "Fantôme Maho Firefoux",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 15,
         "type": "monster"
     },
     {
         "id": 297,
-        "name": "Fantôme yokai",
+        "name": "Fantôme Yokai Firefoux",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 15,
         "type": "monster"
     },
     {
         "id": 298,
-        "name": "Fantôme pandore",
+        "name": "Fantôme Pandore",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 16,
         "type": "monster"
@@ -3043,7 +3083,7 @@
         "id": 299,
         "name": "Fantôme Tanukouï San",
         "zones": [
-            "Île de Grobe"
+            "L'île de Grobe"
         ],
         "step": 16,
         "type": "monster"
@@ -3548,6 +3588,7 @@
         "zones": [
             "La forêt d'Amakna",
             "La forêt maléfique",
+            "Souterrain",
             "Le berceau",
             "Forêt des Abraknydes",
             "Contour d'Astrub",
@@ -3555,7 +3596,7 @@
             "Village de Pandala",
             "Orée de la forêt des Abraknydes",
             "Prairies d'Astrub",
-            "Orée de la Millifutaie"       
+            "Orée de la Millifutaie"    
         ],
         "step": 20,
         "type": "archi",
@@ -3608,7 +3649,7 @@
         "id": 357,
         "name": "Arachitik la Souffreteuse",
         "zones": [
-            "Cité d'Astrub", 
+            "Cité d'Astrub",
             "Souterrain d'Astrub"
         ],
         "step": 20,
@@ -3731,11 +3772,11 @@
         "id": 366,
         "name": "Tofuldebeu l'Explosif",
         "zones": [
-            "Le champ des Ingalsses", 
-            "Le berceau", 
-            "Contour d'Astrub", 
-            "Champs d'Astrub", 
-            "Le coin des Tofus", 
+            "Le champ des Ingalsses",
+            "Le berceau",
+            "Contour d'Astrub",
+            "Champs d'Astrub",
+            "Le coin des Tofus",
             "Prairies d'Astrub"
         ],
         "step": 20,
@@ -3746,7 +3787,7 @@
         "id": 367,
         "name": "Tofurapin le Pétri",
         "zones": [
-            "Souterrain d'Astrub", 
+            "Souterrain d'Astrub",
             "Souterrain profond d'Astrub"
         ],
         "step": 20,
@@ -3766,7 +3807,7 @@
             "Orée de la forêt des Abraknydes",
             "Prairies d'Astrub",
             "Bordure de Bonta",
-            "Clairière de Brouce Boulgour", 
+            "Clairière de Brouce Boulgour",
             "Le chemin de fer abandonné",
             "Orée de la Millifutaie",
             "La campagne"
@@ -3779,14 +3820,14 @@
         "id": 369,
         "name": "Pissdane l'Insipide",
         "zones": [
-            "Le champ des Ingalsses", 
-            "Le berceau", 
-            "Forêt de Cania", 
-            "Les Champs de Cania", 
-            "Champs d'Astrub", 
-            "Orée de la forêt des Abraknydes", 
-            "Prairies d'Astrub", 
-            "Bordure de Bonta", 
+            "Le champ des Ingalsses",
+            "Le berceau",
+            "Forêt de Cania",
+            "Les Champs de Cania",
+            "Champs d'Astrub",
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
             "Le Bosquet du petit talus"
         ],
         "step": 20,
@@ -4004,8 +4045,16 @@
         "id": 385,
         "name": "Tour le Vice",
         "zones": [
+            "Le champ des Ingalsses",
+            "Le berceau",
+            "Forêt de Cania",
+            "Les Champs de Cania",
             "Champs d'Astrub",
-            "Pâturages de Bonta"
+            "Orée de la forêt des Abraknydes",
+            "Prairies d'Astrub",
+            "Bordure de Bonta",
+            "La campagne",
+            "Le Bosquet du petit talus"
         ],
         "step": 21,
         "type": "archi",
@@ -4037,8 +4086,8 @@
         "id": 388,
         "name": "Nodkoku le Trahi",
         "zones": [
-            "Île des naufragés",
-            "Plage de la Tortue"
+            "La plage de Moon",
+            "Ile des naufragés"
         ],
         "step": 21,
         "type": "archi",
@@ -4048,8 +4097,8 @@
         "id": 389,
         "name": "Tikosto le Mousse",
         "zones": [
-            "Île des naufragés",
-            "Plage de la Tortue"
+            "La plage de Moon",
+            "Ile des naufragés"
         ],
         "step": 21,
         "type": "archi",
@@ -4228,7 +4277,7 @@
         "id": 404,
         "name": "Torthur la Lutte",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 22,
         "type": "archi",
@@ -4297,7 +4346,7 @@
         "id": 410,
         "name": "Tortenssia la Fleurie",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 22,
         "type": "archi",
@@ -4378,7 +4427,7 @@
         "id": 417,
         "name": "Tortorak le Cornu",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 23,
         "type": "archi",
@@ -4424,9 +4473,12 @@
         "id": 421,
         "name": "Milipatte la Griffe",
         "zones": [
-            "Forêt d'Amakna",
+            "La forêt d'Amakna",
+            "Forêt des Abraknydes",
+            "Bois de Litneg",
             "Forêt d'Astrub",
-            "Milifutaie"
+            "Orée de la forêt des Abraknydes",
+            "La Millifutaie"
         ],
         "step": 23,
         "type": "archi",
@@ -4457,7 +4509,7 @@
         "id": 424,
         "name": "Tortilleur le Coulé",
         "zones": [
-            "Plage de la Tortue"
+            "La plage de Moon"
         ],
         "step": 23,
         "type": "archi",
@@ -4503,7 +4555,7 @@
         "id": 428,
         "name": "Rostensyl la Cuisinière",
         "zones": [
-            "Pâturages de Bonta"
+            "Le champ des Ingalsses"
         ],
         "step": 23,
         "type": "archi",
@@ -5179,8 +5231,8 @@
         "id": 488,
         "name": "Koktèle le Secoué",
         "zones": [
-            "Île des naufragés",
-            "Plage de la Tortue"
+            "La plage de Moon",
+            "Ile des naufragés"
         ],
         "step": 26,
         "type": "archi",
@@ -5478,10 +5530,7 @@
         "zones": [
             "Egout de Bonta",
             "Egout de Brâkmar",
-            "Souterrain du Château d'Amakna",
-            "Donjon des Rats de Bonta",
-            "Donjon des Rats de Brâkmar",
-            "Donjon des Rats du Château d'Amakna"
+            "Souterrain du Château d'Amakna"
         ],
         "step": 28,
         "type": "archi",
