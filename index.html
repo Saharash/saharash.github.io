@@ -20,11 +20,23 @@
         tbody tr {
             cursor: pointer;
         }
+
+        .zone-label {
+            display: inline-block;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .modal-title {
+        text-align: center;
+        width: 100%;
+    }
     </style>
 </head>
 
 <body ng-controller="AppCtrl as appCtrl">
-    <a href="https://github.com/Mopolo/Eternelle-Moisson"><img style="position: absolute; top: 0; right: 0; border: 0;z-index: 10000;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -46,7 +58,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#" data-toggle="modal" data-target="#saveModal">Sauvegarde</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#helpModal">Aide</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#aboutModal">A propos</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -128,6 +139,7 @@
                             <thead>
                                 <tr>
                                     <th style="width:50px;">Possédé</th>
+                                    <th>Quantité</th>
                                     <th>Nom</th>
                                     <th>Étape</th>
                                     <th>Zones</th>
@@ -135,8 +147,9 @@
                             </thead>
 
                             <tbody>
-                                <tr ng-repeat="monster in appCtrl.monsters | orderBy:'name' | filter:search" ng-class="{success: appCtrl.isOwned(monster)}" ng-click="appCtrl.toggleMonster(monster)" ng-hide="appCtrl.displayOwnedMonsters && appCtrl.isOwned(monster)">
-                                    <td><input type="checkbox" ng-checked="appCtrl.isOwned(monster)" /></td>
+                                <tr ng-repeat="monster in appCtrl.monsters | orderBy:'name' | filter:search" ng-class="{success: appCtrl.isOwned(monster)}" ng-hide="appCtrl.displayOwnedMonsters && appCtrl.isOwned(monster)">
+                                    <td><input type="checkbox" ng-checked="appCtrl.isOwned(monster)" ng-click="appCtrl.toggleMonster(monster)" ng-disabled="monster.quantity >= 1" /></td>
+                                    <td><input type="number" ng-model="monster.quantity" min="0" ng-change="appCtrl.updateQuantity(monster)" /></td>
                                     <td>
                                         <i class="glyphicon glyphicon-star" ng-if="monster.type == 'boss'"></i>
                                         <i class="glyphicon glyphicon-fire" ng-if="monster.type == 'archi'"></i>
@@ -144,7 +157,7 @@
                                     </td>
                                     <td>{{ monster.step }}</td>
                                     <td>
-                                        <span class="label label-primary" ng-repeat="zone in monster.zones">{{ zone }}</span>
+                                        <span class="label label-primary zone-label" ng-repeat="zone in monster.zones">{{ zone }}</span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -173,6 +186,7 @@
                             <thead>
                                 <tr>
                                     <th style="width:50px;">Possédé</th>
+                                    <th>Quantité</th>
                                     <th>Nom</th>
                                     <th>Étape</th>
                                     <th>Zones</th>
@@ -180,8 +194,9 @@
                             </thead>
 
                             <tbody>
-                                <tr ng-repeat="monster in monsters" ng-class="{success: appCtrl.isOwned(monster)}" ng-click="appCtrl.toggleMonster(monster)">
-                                    <td><input type="checkbox" ng-checked="appCtrl.isOwned(monster)" /></td>
+                                <tr ng-repeat="monster in monsters" ng-class="{success: appCtrl.isOwned(monster)}">
+                                    <td><input type="checkbox" ng-checked="appCtrl.isOwned(monster)" ng-click="appCtrl.toggleMonster(monster)" ng-disabled="monster.quantity >= 1" /></td>
+                                    <td><input type="number" ng-model="monster.quantity" min="0" ng-change="appCtrl.updateQuantity(monster)" /></td>
                                     <td>
                                         <i class="glyphicon glyphicon-star" ng-if="monster.type == 'boss'"></i>
                                         <i class="glyphicon glyphicon-fire" ng-if="monster.type == 'archi'"></i>
@@ -189,7 +204,7 @@
                                     </td>
                                     <td>{{ monster.step }}</td>
                                     <td>
-                                        <span class="label label-primary" ng-repeat="zone in monster.zones">{{ zone }}</span>
+                                        <span class="label label-primary zone-label" ng-repeat="zone in monster.zones">{{ zone }}</span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -217,21 +232,23 @@
                             <thead>
                                 <tr>
                                     <th style="width:50px;">Possédé</th>
+                                    <th>Quantité</th>
                                     <th>Nom</th>
                                     <th>Zones</th>
                                 </tr>
                             </thead>
 
                             <tbody>
-                                <tr ng-repeat="monster in monsters" ng-class="{success: appCtrl.isOwned(monster)}" ng-click="appCtrl.toggleMonster(monster)">
-                                    <td><input type="checkbox" ng-checked="appCtrl.isOwned(monster)" /></td>
+                                <tr ng-repeat="monster in monsters" ng-class="{success: appCtrl.isOwned(monster)}">
+                                    <td><input type="checkbox" ng-checked="appCtrl.isOwned(monster)" ng-click="appCtrl.toggleMonster(monster)" ng-disabled="monster.quantity >= 1" /></td>
+                                    <td><input type="number" ng-model="monster.quantity" min="0" ng-change="appCtrl.updateQuantity(monster)" /></td>
                                     <td>
                                         <i class="glyphicon glyphicon-star" ng-if="monster.type == 'boss'"></i>
                                         <i class="glyphicon glyphicon-fire" ng-if="monster.type == 'archi'"></i>
                                         {{ monster.name }}
                                     </td>
                                     <td>
-                                        <span class="label label-primary" ng-repeat="zone in monster.zones">{{ zone }}</span>
+                                        <span class="label label-primary zone-label" ng-repeat="zone in monster.zones">{{ zone }}</span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -245,8 +262,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <p>
-                    Cet outil facilite la gestion de la quête du Dofus Ocre.
-                    <a href="https://github.com/Mopolo/Eternelle-Moisson">Voir sur Github</a>
+                    Cet outil facilite la gestion de la quête du Dofus Ocre, mis à jour pour Dofus Rétro et avec de nombreuses optimisations réalisées par <u>Saharash</u>.
                     <span class="pull-right">Dofus est la propriété d'Ankama</span>
                 </p>
             </div>
@@ -261,30 +277,25 @@
                     <h4 class="modal-title" id="saveModalLabel">Gestion de la sauvegarde</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="form-group">
-                        <label for="inputSave">Sauvegarde actuelle</label>
-                        <input type="text" name="save" id="inputSave" class="form-control" ng-model="appCtrl.saveData" />
+                    <div class="form-group text-center">
+                        <input type="file" id="fileImport" class="form-control" style="display: none;" onchange="angular.element(this).scope().appCtrl.importData(event)"/>
+                        <button class="btn btn-primary" onclick="document.getElementById('fileImport').click();">Importer une sauvegarde</button>
                     </div>
-
+                
                     <hr />
-
-                    <div class="form-group">
-                        <label for="inputLoad">Charger une sauvegarde</label>
-                        <div class="input-group">
-                            <input type="text" name="load" id="inputLoad" class="form-control" ng-model="appCtrl.loadData" />
-                            <span class="input-group-btn">
-                                <button class="btn btn-warning" type="button" ng-click="appCtrl.load()" ng-disabled="!appCtrl.loadData.length">Charger</button>
-                            </span>
-                        </div>
+                
+                    <div class="form-group text-center">
+                        <!-- Structure similaire pour le bouton Exporter -->
+                        <button class="btn btn-warning" type="button" ng-click="appCtrl.exportData()">Exporter une sauvegarde</button>
                     </div>
-
+                
                     <hr />
-
+                
                     <div class="text-center">
-                        <h4>ATTENTION CELA VA TOUT EFFACER !!</h4>
+                        <h4>ATTENTION, CELA VA TOUT EFFACER !</h4>
                         <button class="btn btn-danger" ng-click="appCtrl.resetAll()">Remise à zéro</button>
                     </div>
-
+                
                     <p class="text-danger" ng-show="appCtrl.loadData.length">Attention ! Charger une sauvegarde effacera les données actuelles.</p>
                 </div>
                 <div class="modal-footer">
@@ -303,53 +314,20 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        Cet outils permet de faciliter la gestion de la quête du Dofus Ocre.
+                        Cet outil permet de faciliter la gestion de la quête du Dofus Ocre.
                     </p>
 
                     <p>
-                        Pour ajouter ou supprimer un monstre il suffit de cliquer sur sa ligne.<br />
-                        La sauvegarde se fait automatiquement et il n'y a pas besoin de compte.<br />
-                        Les données sont enregistrées localement dans le navigateur. Vous pouvez donc fermer la page
-                        et revenir plus tard.
+                        - Pour ajouter un monstre, il suffit de cocher la case dans « possédé », ou de mettre la quantité du monstre supérieure ou égale à 1.<br />
+                        - Pour supprimer un monstre, il suffit d'avoir la « quantité » de celui-ci à zéro.<br />
+                    </p> 
+                        La sauvegarde se fait automatiquement et il n'y a pas besoin de compte.<br /> 
+                    <p>
+                        Les données sont enregistrées localement dans le navigateur, vous pouvez donc fermer la page et revenir plus tard.
                     </p>
 
                     <p>
-                        Si vous changez de navigateur vous pouvez exporter la sauvegarde pour la charger plus tard.
-                    </p>
-
-                    <p>
-                        Si vous trouvez un bug, avez une idée ou si la liste des monstres n'est pas à jour,
-                        contribuez sur <a href="https://github.com/Mopolo/Eternelle-Moisson">Github</a> en faisant
-                        une Pull Request ou en créant une issue.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="aboutModalLabel">A Propos</h4>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        Ce site est libre et open source sur <a href="https://github.com/Mopolo/Eternelle-Moisson">Github</a>
-                        et est écrit en AngularJS (version 1.x).
-                    </p>
-
-                    <p>
-                        Les contributions sont les bienvenues.
-                    </p>
-
-                    <p>
-                        Le code source est distribué sous licence MIT, vous avez donc le droit de le copier/modifier/distribuer
-                        et de l'héberger vous même si vous préférez.
+                        Si vous changez de navigateur, vous pouvez exporter la sauvegarde pour la charger plus tard.
                     </p>
                 </div>
                 <div class="modal-footer">
