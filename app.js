@@ -8,7 +8,7 @@
 
         vm.totalSteps = 34;
         vm.sorting = locker.get('sorting', 0);
-        vm.saveData = locker.get('save');
+        vm.saveData = locker.get('save') || [];
         vm.displayOwnedMonsters = locker.get('displayOwnedMonsters', false);
         vm.displayFinishedZones = locker.get('displayFinishedZones', false);
         vm.displayFinishedSteps = locker.get('displayFinishedSteps', false);
