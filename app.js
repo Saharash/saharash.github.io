@@ -20,16 +20,31 @@
                 reader.onload = function(e) {
                     var contents = e.target.result;
                     var importedData = JSON.parse(contents);
-        
+                
+                    if (!vm.saveData) {
+                        vm.saveData = locker.get('save', []);
+                    }
+                
                     vm.monsters.forEach(function(monster) {
                         var importedMonster = importedData.find(function(m) { return m.id === monster.id; });
                         if (importedMonster) {
                             monster.quantity = importedMonster.quantity;
-                            vm.toggleMonster(monster, true);
+                            if (monster.quantity > 0) {
+                                if (vm.saveData.indexOf(monster.id) === -1) {
+                                    vm.saveData.push(monster.id);
+                                }
+                            } else {
+                                const index = vm.saveData.indexOf(monster.id);
+                                if (index > -1) {
+                                    vm.saveData.splice(index, 1);
+                                }
+                            }
                         }
                     });
-        
+                
+                    locker.put('save', vm.saveData);
                     locker.put('monsterQuantities', vm.monsters.map(function(m) { return { id: m.id, quantity: m.quantity }; }));
+                
                     
                     location.reload();
                 };
