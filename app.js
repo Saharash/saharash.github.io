@@ -13,6 +13,18 @@
         vm.displayFinishedZones = locker.get('displayFinishedZones', false);
         vm.displayFinishedSteps = locker.get('displayFinishedSteps', false);
 
+        vm.increaseQuantity = function(monster) {
+            monster.quantity++;
+            vm.updateQuantity(monster);
+        };
+        
+        vm.decreaseQuantity = function(monster) {
+            if (monster.quantity > 0) {
+                monster.quantity--;
+                vm.updateQuantity(monster);
+            }
+        };
+
         vm.importData = function(event) {
             var file = event.target.files[0];
             if (file) {
@@ -100,8 +112,6 @@
 
         vm.toggleMonster = function(monster, val) {
             vm.saveData = locker.get('save', []);
-            if (monster.quantity >= 1) return;
-        
             if (vm.saveData.indexOf(monster.id) >= 0) {
                 if (angular.isUndefined(val) || val === false) {
                     vm.saveData.splice(vm.saveData.indexOf(monster.id), 1);
@@ -109,9 +119,6 @@
             } else {
                 if (angular.isUndefined(val) || val === true) {
                     vm.saveData.push(monster.id);
-                    if (monster.quantity === 0) {
-                        monster.quantity = 1;
-                    }
                 }
             }
         
@@ -187,13 +194,13 @@
 
         vm.toggleZone = function(zone) {
             var newVal = true;
-
+        
             if (vm.owned(false, zone) == vm.total(false, zone)) {
                 newVal = false;
             }
-
-            vm.monsters.map(function(monster) {
-                if (monster.zones.indexOf(zone) >= 0) {
+        
+            vm.monsters.forEach(function(monster) {
+                if (monster.zones.indexOf(zone) >= 0 && monster.quantity < 1) {
                     vm.toggleMonster(monster, newVal);
                 }
             });
@@ -201,13 +208,13 @@
 
         vm.toggleStep = function(step) {
             var newVal = true;
-
+        
             if (vm.owned(false, false, step) == vm.total(false, false, step)) {
                 newVal = false;
             }
-
-            vm.monsters.map(function(monster) {
-                if (monster.step == step) {
+        
+            vm.monsters.forEach(function(monster) {
+                if (monster.step == step && monster.quantity < 1) {
                     vm.toggleMonster(monster, newVal);
                 }
             });
