@@ -1,0 +1,54 @@
+body {
+    padding-top: 60px;
+}
+
+.label {
+    margin-right: 5px;
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+.zone-label {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.modal-title {
+text-align: center;
+width: 100%;
+}
+
+* {
+box-sizing: border-box;
+overflow-wrap: break-word;
+}
+
+html, body {
+width: 100%;
+max-width: 100%;
+overflow-x: hidden;
+}
+
+.monster-name-cell {
+    white-space: nowrap;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.monster-name-cell::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.sort-asc:after {
+    content: " \2191"; /* Flèche vers le haut */
+}
+
+.sort-desc:after {
+    content: " \2193"; /* Flèche vers le bas */
+}

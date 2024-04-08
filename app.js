@@ -311,3 +311,132 @@
         .controller('AppCtrl', AppCtrl);
 
 }());
+
+   // PAGE TENTATIVES d'EXO //
+
+    var currentSortColumnIndex = null;
+    var currentSortDirection = 'asc'; // 'asc' pour ascendant, 'desc' pour descendant
+
+    document.addEventListener('DOMContentLoaded', function() {
+        loadTableData();
+    
+        document.getElementById('addEntry').addEventListener('click', function() {
+            var personnageName = document.getElementById('personnageName').value;
+            var itemName = document.getElementById('itemName').value;
+            var tentativesNumber = document.getElementById('tentativesNumber').value;
+        
+            if (personnageName && itemName && tentativesNumber >= 1) {
+                addRowToTable(personnageName, itemName, tentativesNumber);
+                document.getElementById('personnageName').value = '';
+                document.getElementById('itemName').value = '';
+                document.getElementById('tentativesNumber').value = '';
+            } else {
+                alert("Veuillez remplir tous les champs correctement. Le nombre de tentatives doit être supérieur ou égal à 1.");
+            }
+        });
+    
+        document.querySelectorAll('#tentativesTable th').forEach(function(header, index) {
+            header.addEventListener('click', function() {
+                if (currentSortColumnIndex === index) {
+                    currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+                } else {
+                    currentSortDirection = 'asc';
+                }
+                currentSortColumnIndex = index;
+                sortTableByColumn(index, currentSortDirection);
+                updateSortIndicator(index, currentSortDirection);
+            });
+        });
+    });
+
+    function updateSortIndicator(columnIndex, sortDirection) {
+        // Supprimer les indicateurs existants
+        document.querySelectorAll('#tentativesTable th').forEach(function(header) {
+            header.classList.remove('sort-asc', 'sort-desc');
+        });
+        
+        // Ajouter l'indicateur au bon en-tête
+        var header = document.querySelectorAll('#tentativesTable th')[columnIndex];
+        var indicatorClass = sortDirection === 'asc' ? 'sort-asc' : 'sort-desc';
+        header.classList.add(indicatorClass);
+    }
+    
+    function sortTableByColumn(columnIndex, sortDirection) {
+        var table = document.getElementById('tentativesTable');
+        var tbody = table.getElementsByTagName('tbody')[0];
+        var rows = Array.from(tbody.getElementsByTagName('tr'));
+    
+        var sortedRows = rows.sort(function(a, b) {
+            var textA = a.getElementsByTagName('td')[columnIndex].textContent.toUpperCase();
+            var textB = b.getElementsByTagName('td')[columnIndex].textContent.toUpperCase();
+    
+            if (sortDirection === 'asc') {
+                return textA.localeCompare(textB);
+            } else {
+                return textB.localeCompare(textA);
+            }
+        });
+    
+        while (tbody.firstChild) {
+            tbody.removeChild(tbody.firstChild);
+        }
+    
+        sortedRows.forEach(function(row) {
+            tbody.appendChild(row);
+        });
+    
+        saveTableData();
+    }
+
+function saveTableData() {
+    var tableData = [];
+    var tableBody = document.getElementById('tentativesTable').getElementsByTagName('tbody')[0];
+    for (var i = 0, row; row = tableBody.rows[i]; i++) {
+        tableData.push({
+            personnage: row.cells[0].textContent,
+            item: row.cells[1].textContent,
+            tentatives: row.cells[2].textContent
+        });
+    }
+    localStorage.setItem('tentativesTableData', JSON.stringify(tableData));
+}
+
+function loadTableData() {
+    var storedData = localStorage.getItem('tentativesTableData');
+    if (storedData) {
+        var tableData = JSON.parse(storedData);
+        tableData.forEach(function(rowData) {
+            addRowToTable(rowData.personnage, rowData.item, rowData.tentatives, false);
+        });
+    }
+}
+
+function addRowToTable(personnageName, itemName, tentativesNumber, saveData = true) {
+    var tableBody = document.getElementById('tentativesTable').getElementsByTagName('tbody')[0];
+    var newRow = tableBody.insertRow();
+    var cell1 = newRow.insertCell(0);
+    var cell2 = newRow.insertCell(1);
+    var cell3 = newRow.insertCell(2);
+    var cell4 = newRow.insertCell(3); // Cellule pour le bouton supprimer
+
+    cell1.textContent = personnageName;
+    cell2.textContent = itemName;
+    cell3.textContent = tentativesNumber;
+    
+    // Créer un bouton supprimer et l'ajouter à la cellule
+    var deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Supprimer';
+    deleteButton.className = 'btn btn-danger btn-sm'; // Classe Bootstrap pour le style
+    deleteButton.onclick = function() {
+        // Supprimer la ligne du tableau
+        tableBody.removeChild(newRow);
+        // Sauvegarder l'état actuel du tableau après suppression
+        saveTableData();
+    };
+    cell4.appendChild(deleteButton);
+
+    // Sauvegarder les données du tableau dans localStorage, si nécessaire
+    if (saveData) {
+        saveTableData();
+    }
+}
