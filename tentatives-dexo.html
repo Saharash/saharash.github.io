@@ -58,6 +58,70 @@
         </tbody>
     </table>
 
+    <div class="modal fade" id="saveModal" tabindex="-1" role="dialog" aria-labelledby="saveModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="saveModalLabel">Gestion de la sauvegarde</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group text-center">
+                        <input type="file" id="fileImport" class="form-control" style="display: none;" onchange="importData(event)"/>
+                        <h4>Attention ! Importer une sauvegarde effacera les données actuelles.</h4>
+                        <button class="btn btn-primary" onclick="document.getElementById('fileImport').click();">Importer une sauvegarde</button>
+                    </div>
+                
+                    <hr />
+                
+                    <div class="form-group text-center">
+                        <button class="btn btn-warning" type="button" onclick="exportData()">Exporter une sauvegarde</button>
+                    </div>
+                
+                    <hr />
+                
+                    <div class="text-center">
+                        <h4>ATTENTION, CELA VA TOUT EFFACER !</h4>
+                        <button class="btn btn-danger" onclick="resetData()">Remise à zéro</button>
+                    </div>
+
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="helpModalLabel">Aide</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Cet outil permet de voir le nombre de tentatives réalisées par item ainsi de voir des stats.
+                    </p>
+
+                        La sauvegarde se fait automatiquement et il n'y a pas besoin de compte.<br /> 
+                    <p>
+                        Les données sont enregistrées localement dans le navigateur, vous pouvez donc fermer la page et revenir plus tard.
+                    </p>
+
+                    <p>
+                        Si vous changez de navigateur, vous pouvez exporter/importer la sauvegarde pour la charger plus tard.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="https://cdn.jsdelivr.net/angular.locker/2.0.4/angular-locker.min.js"></script>

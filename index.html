@@ -323,6 +323,7 @@
                 <div class="modal-body">
                     <div class="form-group text-center">
                         <input type="file" id="fileImport" class="form-control" style="display: none;" onchange="angular.element(this).scope().appCtrl.importData(event)"/>
+                        <h4>Attention ! Importer une sauvegarde effacera les données actuelles.</h4>
                         <button class="btn btn-primary" onclick="document.getElementById('fileImport').click();">Importer une sauvegarde</button>
                     </div>
                 
@@ -338,9 +339,9 @@
                         <h4>ATTENTION, CELA VA TOUT EFFACER !</h4>
                         <button class="btn btn-danger" ng-click="appCtrl.resetAll()">Remise à zéro</button>
                     </div>
-                
-                    <p class="text-danger" ng-show="appCtrl.loadData.length">Attention ! Charger une sauvegarde effacera les données actuelles.</p>
+
                 </div>
+                
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
                 </div>

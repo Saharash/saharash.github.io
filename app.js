@@ -367,13 +367,19 @@
         var rows = Array.from(tbody.getElementsByTagName('tr'));
     
         var sortedRows = rows.sort(function(a, b) {
-            var textA = a.getElementsByTagName('td')[columnIndex].textContent.toUpperCase();
-            var textB = b.getElementsByTagName('td')[columnIndex].textContent.toUpperCase();
+            var valueA = a.getElementsByTagName('td')[columnIndex].textContent.toUpperCase();
+            var valueB = b.getElementsByTagName('td')[columnIndex].textContent.toUpperCase();
+    
+            if(columnIndex === 2) {
+                valueA = parseInt(valueA);
+                valueB = parseInt(valueB);
+                return sortDirection === 'asc' ? valueA - valueB : valueB - valueA;
+            }
     
             if (sortDirection === 'asc') {
-                return textA.localeCompare(textB);
+                return valueA.localeCompare(valueB, undefined, {numeric: true, sensitivity: 'base'});
             } else {
-                return textB.localeCompare(textA);
+                return valueB.localeCompare(valueA, undefined, {numeric: true, sensitivity: 'base'});
             }
         });
     
@@ -386,7 +392,7 @@
         });
     
         saveTableData();
-    }
+    }    
 
 function saveTableData() {
     var tableData = [];
@@ -438,5 +444,41 @@ function addRowToTable(personnageName, itemName, tentativesNumber, saveData = tr
     // Sauvegarder les données du tableau dans localStorage, si nécessaire
     if (saveData) {
         saveTableData();
+    }
+}
+
+function exportData() {
+    var data = localStorage.getItem('tentativesTableData');
+    if (!data) {
+        alert("Aucune donnée à exporter.");
+        return;
+    }
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(data);
+    var downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", "tentatives_export.json");
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+    location.reload();
+}
+
+function importData(event) {
+    var file = event.target.files[0];
+    if (file) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            var contents = e.target.result;
+            localStorage.setItem('tentativesTableData', contents);
+            location.reload();
+        };
+        reader.readAsText(file);
+    }
+}
+
+function resetData() {
+    if (confirm("Êtes-vous sûr de vouloir remettre à zéro toutes les données ? Cette action est irréversible.")) {
+        localStorage.removeItem('tentativesTableData');
+        location.reload();
     }
 }
