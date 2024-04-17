@@ -13,6 +13,10 @@
         vm.displayFinishedZones = locker.get('displayFinishedZones', false);
         vm.displayFinishedSteps = locker.get('displayFinishedSteps', false);
 
+        vm.duplicates = function() {
+            return vm.monsters.filter(monster => monster.quantity > 1);
+        };
+
         vm.increaseQuantity = function(monster) {
             monster.quantity++;
             vm.updateQuantity(monster);
@@ -119,11 +123,15 @@
             } else {
                 if (angular.isUndefined(val) || val === true) {
                     vm.saveData.push(monster.id);
+                    if (monster.quantity <= 0) {
+                        monster.quantity = 1;
+                    }
                 }
             }
         
             locker.put('save', vm.saveData);
             locker.put('monsterQuantities', vm.monsters.map(function(m) { return { id: m.id, quantity: m.quantity }; }));
+            vm.updateQuantity(monster);
         };
 
         vm.owned = function(type, zone, step) {
@@ -240,7 +248,6 @@
 
         vm.chooseSorting = function(sorting) {
             vm.sorting = sorting;
-
             locker.put('sorting', sorting);
         };
 
@@ -315,7 +322,7 @@
    // PAGE TENTATIVES d'EXO //
 
     var currentSortColumnIndex = null;
-    var currentSortDirection = 'asc'; // 'asc' pour ascendant, 'desc' pour descendant
+    var currentSortDirection = 'asc';
 
     document.addEventListener('DOMContentLoaded', function() {
         loadTableData();
@@ -350,12 +357,10 @@
     });
 
     function updateSortIndicator(columnIndex, sortDirection) {
-        // Supprimer les indicateurs existants
         document.querySelectorAll('#tentativesTable th').forEach(function(header) {
             header.classList.remove('sort-asc', 'sort-desc');
         });
         
-        // Ajouter l'indicateur au bon en-tête
         var header = document.querySelectorAll('#tentativesTable th')[columnIndex];
         var indicatorClass = sortDirection === 'asc' ? 'sort-asc' : 'sort-desc';
         header.classList.add(indicatorClass);
@@ -423,25 +428,21 @@ function addRowToTable(personnageName, itemName, tentativesNumber, saveData = tr
     var cell1 = newRow.insertCell(0);
     var cell2 = newRow.insertCell(1);
     var cell3 = newRow.insertCell(2);
-    var cell4 = newRow.insertCell(3); // Cellule pour le bouton supprimer
+    var cell4 = newRow.insertCell(3);
 
     cell1.textContent = personnageName;
     cell2.textContent = itemName;
     cell3.textContent = tentativesNumber;
     
-    // Créer un bouton supprimer et l'ajouter à la cellule
     var deleteButton = document.createElement('button');
     deleteButton.textContent = 'Supprimer';
-    deleteButton.className = 'btn btn-danger btn-sm'; // Classe Bootstrap pour le style
+    deleteButton.className = 'btn btn-danger btn-sm';
     deleteButton.onclick = function() {
-        // Supprimer la ligne du tableau
         tableBody.removeChild(newRow);
-        // Sauvegarder l'état actuel du tableau après suppression
         saveTableData();
     };
     cell4.appendChild(deleteButton);
 
-    // Sauvegarder les données du tableau dans localStorage, si nécessaire
     if (saveData) {
         saveTableData();
     }
