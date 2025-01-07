@@ -4,7 +4,7 @@
         "name": "Souris Grise",
         "zones": [
             "Les cryptes",
-			"Cité d'Astrub"
+            "Cité d'Astrub"
         ],
         "step": 1,
         "type": "monster"
@@ -429,7 +429,7 @@
         "id": 35,
         "name": "Black Tiwabbit",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -441,7 +441,7 @@
         "id": 36,
         "name": "Tiwabbit",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -453,7 +453,7 @@
         "id": 37,
         "name": "Tiwabbit Kiafin",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -501,7 +501,7 @@
     },
     {
         "id": 41,
-        "name": "Nodkoko",
+        "name": "NodKoko",
         "zones": [
             "La plage de Moon",
             "Ile des naufragés"
@@ -778,7 +778,7 @@
     },
     {
         "id": 67,
-        "name": "Étoile de la Mer d'Asse",
+        "name": "Etoile de la Mer d'Asse",
         "zones": [
             "Baie de Cania",
             "Calanques d'Astrub",
@@ -924,7 +924,7 @@
     },
     {
         "id": 80,
-        "name": "Croc Gland Enragé",
+        "name": "Croc Gland enragé",
         "zones": [
             "Façade de Brâkmar"
         ],
@@ -944,7 +944,7 @@
         "id": 82,
         "name": "Black Wabbit",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -1441,7 +1441,7 @@
         "id": 129,
         "name": "Grand Pa Wabbit",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -1453,7 +1453,7 @@
         "id": 130,
         "name": "Wo Wabbit",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -1598,7 +1598,7 @@
     },
     {
         "id": 145,
-        "name": "Dok Alako",
+        "name": "DoK Alako",
         "zones": [
             "Canyon sauvage",
             "Forêt de Kaliptus",
@@ -1695,7 +1695,7 @@
     },
     {
         "id": 155,
-        "name": "Sanglier des Plaines",
+        "name": "Sanglier Des Plaines",
         "zones": [
             "Forêt de Cania"
         ],
@@ -1714,7 +1714,7 @@
     },
     {
         "id": 157,
-        "name": "Craqueleur des Plaines",
+        "name": "Craqueleur des plaines",
         "zones": [
             "Massif de Cania",
             "Plaines Rocheuses"
@@ -1734,7 +1734,7 @@
     },
     {
         "id": 159,
-        "name": "Chafer d'Élite",
+        "name": "Chafer d'élite",
         "zones": [
             "Cimetière de Bonta",
             "Cimetière des Torturés",
@@ -1889,7 +1889,7 @@
     },
     {
         "id": 173,
-        "name": "DragOeuf de saphir immature",
+        "name": "DragOeuf de Saphir immature",
         "zones": [
             "La presqu'île des Dragoeufs",
             "Sanctuaire des Dragoeufs",
@@ -2020,7 +2020,7 @@
     },
     {
         "id": 187,
-        "name": "Canondorf",
+        "name": "Canon Dorf",
         "zones": [
             "Le bateau pirate"
         ],
@@ -2083,7 +2083,7 @@
     },
     {
         "id": 193,
-        "name": "DragOeuf de saphir",
+        "name": "DragOeuf de Saphir",
         "zones": [
             "La presqu'île des Dragoeufs",
             "Sanctuaire des Dragoeufs",
@@ -2326,7 +2326,7 @@
     },
     {
         "id": 219,
-        "name": "Dragoeuf blanc éveillé",
+        "name": "DragOeuf Blanc Eveillé",
         "zones": [
             "La presqu'île des Dragoeufs",
             "Sanctuaire des Dragoeufs",
@@ -2338,7 +2338,7 @@
     },
     {
         "id": 220,
-        "name": "Dragoeuf doré éveillé",
+        "name": "DragOeuf Doré Eveillé",
         "zones": [
             "La presqu'île des Dragoeufs",
             "Sanctuaire des Dragoeufs",
@@ -2350,7 +2350,7 @@
     },
     {
         "id": 221,
-        "name": "Dragoeuf noir éveillé",
+        "name": "DragOeuf Noir Eveillé",
         "zones": [
             "La presqu'île des Dragoeufs",
             "Sanctuaire des Dragoeufs",
@@ -2362,7 +2362,7 @@
     },
     {
         "id": 222,
-        "name": "Dragoeuf de saphir éveillé",
+        "name": "DragOeuf de Saphir Eveillé",
         "zones": [
             "La presqu'île des Dragoeufs",
             "Sanctuaire des Dragoeufs",
@@ -2422,7 +2422,7 @@
     },
     {
         "id": 228,
-        "name": "Kitsou nere",
+        "name": "Kitsou Nere",
         "zones": [
             "Pandala Neutre",
             "Bordure d'Akwadala",
@@ -2435,7 +2435,7 @@
     },
     {
         "id": 229,
-        "name": "Abraknyde sombre",
+        "name": "Abraknyde Sombre",
         "zones": [
             "Forêt des Abraknydes Sombres"
         ],
@@ -2453,7 +2453,7 @@
     },
     {
         "id": 231,
-        "name": "Fossoyeur koalak",
+        "name": "Fossoyeur Koalak",
         "zones": [
             "Cimetière primitif"
         ],
@@ -2462,7 +2462,7 @@
     },
     {
         "id": 232,
-        "name": "Koalak forestier",
+        "name": "Koalak Forestier",
         "zones": [
             "Forêt de Kaliptus"
         ],
@@ -2498,7 +2498,7 @@
     },
     {
         "id": 236,
-        "name": "Abrakne sombre",
+        "name": "Abrakne Sombre",
         "zones": [
             "Forêt des Abraknydes sombres"
         ],
@@ -2534,7 +2534,7 @@
     },
     {
         "id": 240,
-        "name": "Bambouto sacré",
+        "name": "Bambouto Sacré",
         "zones": [
             "Pandala Neutre",
             "Bordure d'Aerdala",
@@ -2545,7 +2545,7 @@
     },
     {
         "id": 241,
-        "name": "Dragoeuf guerrier",
+        "name": "Dragoeuf Guerrier",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2554,7 +2554,7 @@
     },
     {
         "id": 242,
-        "name": "Dragoeuf volant",
+        "name": "Dragoeuf Volant",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2563,7 +2563,7 @@
     },
     {
         "id": 243,
-        "name": "Aerohouctor le guerrier",
+        "name": "Aerohouctor le Guerrier",
         "zones": [
             "Souterrains de la presqu'île des Dragoeufs"
         ],
@@ -2572,7 +2572,7 @@
     },
     {
         "id": 244,
-        "name": "Aquabralak le guerrier",
+        "name": "Aquabralak le Guerrier",
         "zones": [
             "Souterrains de la presqu'île des Dragoeufs"
         ],
@@ -2581,7 +2581,7 @@
     },
     {
         "id": 245,
-        "name": "Ignelicrobur le guerrier",
+        "name": "Ignelicrobur le Guerrier",
         "zones": [
             "Souterrains de la presqu'île des Dragoeufs"
         ],
@@ -2590,7 +2590,7 @@
     },
     {
         "id": 246,
-        "name": "Terrakoubiak le guerrier",
+        "name": "Terrakoubiak le Guerrier",
         "zones": [
             "Souterrains de la presqu'île des Dragoeufs"
         ],
@@ -2617,7 +2617,7 @@
     },
     {
         "id": 249,
-        "name": "Koalak sanguin",
+        "name": "Koalak Sanguin",
         "zones": [
             "Vallée de la Morh'Kitu"
         ],
@@ -2626,7 +2626,7 @@
     },
     {
         "id": 250,
-        "name": "Bitouf sombre",
+        "name": "Bitouf Sombre",
         "zones": [
             "Jungle obscure"
         ],
@@ -2653,7 +2653,7 @@
     },
     {
         "id": 253,
-        "name": "Koalak farouche",
+        "name": "Koalak Farouche",
         "zones": [
             "Vallée de la Morh'Kitu"
         ],
@@ -2662,7 +2662,7 @@
     },
     {
         "id": 254,
-        "name": "Mama koalak",
+        "name": "Mama Koalak",
         "zones": [
             "Canyon sauvage"
         ],
@@ -2671,7 +2671,7 @@
     },
     {
         "id": 255,
-        "name": "Momie koalak",
+        "name": "Momie Koalak",
         "zones": [
             "Cimetière primitif"
         ],
@@ -2772,7 +2772,7 @@
     },
     {
         "id": 266,
-        "name": "Soryo firefoux",
+        "name": "Soryo Firefoux",
         "zones": [
             "Bordure de Feudala",
             "Village de Feudala"
@@ -2782,7 +2782,7 @@
     },
     {
         "id": 267,
-        "name": "Kitsou nufeu",
+        "name": "Kitsou Nufeu",
         "zones": [
             "Pandala Neutre",
             "Bordure de Feudala",
@@ -2793,7 +2793,7 @@
     },
     {
         "id": 268,
-        "name": "Maho firefoux",
+        "name": "Maho Firefoux",
         "zones": [
             "Bordure de Feudala",
             "Village de Feudala"
@@ -2821,7 +2821,7 @@
     },
     {
         "id": 271,
-        "name": "Maître koalak",
+        "name": "Maître Koalak",
         "zones": [
             "Cimetière primitif"
         ],
@@ -2840,7 +2840,7 @@
     },
     {
         "id": 273,
-        "name": "Ignerkocropos l'affamé",
+        "name": "Ignerkocropos l'Affamé",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2849,7 +2849,7 @@
     },
     {
         "id": 274,
-        "name": "Terraburkal le perfide",
+        "name": "Terraburkal le Perfide",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2858,7 +2858,7 @@
     },
     {
         "id": 275,
-        "name": "Aerotrugobur le malveillant",
+        "name": "Aerotrugobur le Malveillant",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2867,7 +2867,7 @@
     },
     {
         "id": 276,
-        "name": "Aqualikros l'impitoyable",
+        "name": "Aqualikros l'Impitoyable",
         "zones": [
             "Sanctuaire des Dragoeufs"
         ],
@@ -2923,7 +2923,7 @@
     },
     {
         "id": 282,
-        "name": "Abrakleur clair",
+        "name": "Abrakleur Clair",
         "zones": [
             "Tronc de l'arbre Hakam"
         ],
@@ -2932,7 +2932,7 @@
     },
     {
         "id": 283,
-        "name": "Yokai firefoux",
+        "name": "Yokai Firefoux",
         "zones": [
             "Bordure de Feudala",
             "Village de Feudala"
@@ -2978,7 +2978,7 @@
     },
     {
         "id": 288,
-        "name": "Champ à gnon",
+        "name": "Champ à Gnons",
         "zones": [
             "Caverne des Fungus",
             "Domaine des Fungus"
@@ -3090,7 +3090,7 @@
     },
     {
         "id": 300,
-        "name": "Mob l'éponge",
+        "name": "Mob l'Eponge",
         "zones": [
             "Boss"
         ],
@@ -3288,7 +3288,7 @@
     },
     {
         "id": 322,
-        "name": "Craqueleur légendaire",
+        "name": "Craqueleur Légendaire",
         "zones": [
             "Boss"
         ],
@@ -3297,7 +3297,7 @@
     },
     {
         "id": 323,
-        "name": "Gardienne des Egout",
+        "name": "Gardienne des Egouts",
         "zones": [
             "Boss"
         ],
@@ -3324,7 +3324,7 @@
     },
     {
         "id": 326,
-        "name": "Blop multicolore royal",
+        "name": "Blop Multicolore Royal",
         "zones": [
             "Boss"
         ],
@@ -3333,7 +3333,7 @@
     },
     {
         "id": 327,
-        "name": "Corailleur magistral",
+        "name": "Corailleur Magistral",
         "zones": [
             "Boss"
         ],
@@ -3342,7 +3342,7 @@
     },
     {
         "id": 328,
-        "name": "Gourlo le terrible",
+        "name": "Gourlo le Terrible",
         "zones": [
             "Boss"
         ],
@@ -3396,7 +3396,7 @@
     },
     {
         "id": 334,
-        "name": "Abraknyde ancestral",
+        "name": "Abraknyde Ancestral",
         "zones": [
             "Boss"
         ],
@@ -3405,7 +3405,7 @@
     },
     {
         "id": 335,
-        "name": "Maître pandore",
+        "name": "Maître Pandore",
         "zones": [
             "Boss"
         ],
@@ -3495,7 +3495,7 @@
     },
     {
         "id": 345,
-        "name": "Silf le rasboul majeur",
+        "name": "Silf le Rasboul Majeur",
         "zones": [
             "Boss"
         ],
@@ -3513,7 +3513,7 @@
     },
     {
         "id": 347,
-        "name": "Péki péki",
+        "name": "Péki Péki",
         "zones": [
             "Boss"
         ],
@@ -3522,7 +3522,7 @@
     },
     {
         "id": 348,
-        "name": "Chêne mou",
+        "name": "Chêne Mou",
         "zones": [
             "Boss"
         ],
@@ -3596,7 +3596,7 @@
             "Village de Pandala",
             "Orée de la forêt des Abraknydes",
             "Prairies d'Astrub",
-            "Orée de la Millifutaie"    
+            "Orée de la Millifutaie"
         ],
         "step": 20,
         "type": "archi",
@@ -3612,7 +3612,6 @@
             "Contour d'Astrub",
             "Prairies d'Astrub",
             "Elevage de Bouftous du Château d'Amakna"
-
         ],
         "step": 20,
         "type": "archi",
@@ -3839,10 +3838,10 @@
         "name": "Araknay la Galopante",
         "zones": [
             "Bord de la fôret maléfique",
-            "Forêt des Abraknydes", 
-            "Souterrain du Château d'Amakna", 
-            "La Millifutaie", 
-            "Le chemin de fer abandonné", 
+            "Forêt des Abraknydes",
+            "Souterrain du Château d'Amakna",
+            "La Millifutaie",
+            "Le chemin de fer abandonné",
             "La campagne"
         ],
         "step": 20,
@@ -3930,8 +3929,8 @@
             "La forêt d'Amakna",
             "Le coin des Bouftous",
             "Le berceau",
-            "Contour d'Astrub", 
-            "Prairies d'Astrub", 
+            "Contour d'Astrub",
+            "Prairies d'Astrub",
             "Elevage de Bouftous du Château d'Amakna"
         ],
         "step": 21,
@@ -3994,7 +3993,7 @@
         "id": 381,
         "name": "Tiwa'Missou le Gateux",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -4019,7 +4018,7 @@
         "id": 383,
         "name": "Tiwalpé le Dévêtu",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -4032,7 +4031,7 @@
         "id": 384,
         "name": "Tiwoflan le Lâche",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -4084,7 +4083,7 @@
     },
     {
         "id": 388,
-        "name": "Nodkoku le Trahi",
+        "name": "NodKoku le Trahi",
         "zones": [
             "La plage de Moon",
             "Ile des naufragés"
@@ -4287,7 +4286,7 @@
         "id": 405,
         "name": "Wabbitud le Constant",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -4324,7 +4323,7 @@
         "id": 408,
         "name": "Bouflet le Puéril",
         "zones": [
-            "Le coin des Bouftous", 
+            "Le coin des Bouftous",
             "Le berceau"
         ],
         "step": 22,
@@ -4532,7 +4531,7 @@
         "id": 426,
         "name": "Wagnagnah le Sanglant",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -4819,7 +4818,7 @@
     },
     {
         "id": 451,
-        "name": "Blorie l'Assourdissante",
+        "name": "Blorie L'assourdissante",
         "zones": [
             "Plaine de Cania",
             "Route de Bonta",
@@ -4887,7 +4886,7 @@
     },
     {
         "id": 457,
-        "name": "Scaratyn l'Huître",
+        "name": "Scaratyn l'huitre",
         "zones": [
             "L'île du Minotoror",
             "Le labyrinthe du Minotoror"
@@ -5061,7 +5060,7 @@
     },
     {
         "id": 473,
-        "name": "Arakozette l'intrépide",
+        "name": "Arakozette l'Intrépide",
         "zones": [
             "Pandala Neutre",
             "Bordure d'Akwadala",
@@ -5094,7 +5093,7 @@
         "id": 475,
         "name": "Grandilok le Clameur",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -5107,7 +5106,7 @@
         "id": 476,
         "name": "Wokènrôl le Danseur",
         "zones": [
-            "Sous-terrains des Wabbits", 
+            "Sous-terrains des Wabbits",
             "Ile des Wabbits",
             "Ilot des Wabbits",
             "Île du château des Wabbits"
@@ -5267,7 +5266,7 @@
     },
     {
         "id": 491,
-        "name": "Chamitant le Dilettante",
+        "name": "Chamitant le Dillettante",
         "zones": [
             "Egout de Bonta",
             "Egout de Brâkmar",
@@ -6048,7 +6047,7 @@
     },
     {
         "id": 563,
-        "name": "Kido l'âtre",
+        "name": "Kido l'Âtre",
         "zones": [
             "Plaines herbeuses"
         ],
@@ -6070,9 +6069,9 @@
         "id": 565,
         "name": "Dragoo le Cramoisi",
         "zones": [
-            "La presqu'île des Dragoeufs", 
-            "Sanctuaire des Dragoeufs", 
-            "Village des Dragoeufs", 
+            "La presqu'île des Dragoeufs",
+            "Sanctuaire des Dragoeufs",
+            "Village des Dragoeufs",
             "Sous terrain des Dragoeufs"
         ],
         "step": 30,
@@ -6084,8 +6083,8 @@
         "name": "Dragtonien le Malvoyant",
         "zones": [
             "La presqu'île des Dragoeufs",
-            "Sanctuaire des Dragoeufs", 
-            "Village des Dragoeufs", 
+            "Sanctuaire des Dragoeufs",
+            "Village des Dragoeufs",
             "Sous terrain des Dragoeufs"
         ],
         "step": 30,
@@ -6097,8 +6096,8 @@
         "name": "Dragma le Bouillant",
         "zones": [
             "La presqu'île des Dragoeufs",
-            "Sanctuaire des Dragoeufs", 
-            "Village des Dragoeufs", 
+            "Sanctuaire des Dragoeufs",
+            "Village des Dragoeufs",
             "Sous terrain des Dragoeufs"
         ],
         "step": 30,
@@ -6110,8 +6109,8 @@
         "name": "Dragoeth le Penseur",
         "zones": [
             "La presqu'île des Dragoeufs",
-            "Sanctuaire des Dragoeufs", 
-            "Village des Dragoeufs", 
+            "Sanctuaire des Dragoeufs",
+            "Village des Dragoeufs",
             "Sous terrain des Dragoeufs"
         ],
         "step": 30,
@@ -6389,7 +6388,7 @@
     },
     {
         "id": 595,
-        "name": "Mamakomou l'âge",
+        "name": "Mamakomou l'Âge",
         "zones": [
             "Canyon sauvage"
         ],
@@ -6689,7 +6688,7 @@
     },
     {
         "id": 624,
-        "name": "Fansissla l'âne",
+        "name": "Fansissla l'Âne",
         "zones": [
             "L'île de Grobe"
         ],
@@ -6761,7 +6760,7 @@
     },
     {
         "id": 631,
-        "name": "Pandive le végétarien",
+        "name": "Pandive le Végétarien",
         "zones": [
             "Bordure d'Aerdala",
             "Bordure de Terrdala"
